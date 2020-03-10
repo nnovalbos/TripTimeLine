@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TripTimeLine.Views.Templates.TripStartEndTemplate">
+    <ContentView.Content>
+         <Grid>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="120" />
+              <ColumnDefinition Width="40" />
+              <ColumnDefinition Width="*" />
+              <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+           
+            <Label HorizontalOptions="Center" VerticalOptions="Center"
+                   Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}"
+                   FontAttributes="Bold" Margin="5,0"
+
+                   d:Text="1/18/2019" />
+
+            <Label
+              Grid.Column="2"
+ 
+              FontAttributes="Bold"
+              Text="{Binding Name}"
+              HorizontalTextAlignment="Start"
+              HorizontalOptions="StartAndExpand"
+              VerticalOptions="Center"
+              LineBreakMode="TailTruncation"
+
+              d:Text="STARTTEST-3"/>
+
+            <Label
+              Grid.Column="3"
+              Margin="5,0"
+              FontAttributes="Bold"
+              Text="{Binding Date, StringFormat='{0:HH:mm tt}'}"
+              VerticalOptions="Center"
+              HorizontalTextAlignment="End"
+
+              d:Text="10:48:08 AM"/>
+             
+            <Image x:Name="tripEventIcon" Grid.Column="1" VerticalOptions="Center" HeightRequest="30" Source="TripStart.png" />
+
+          </Grid>
+    </ContentView.Content>
+</ContentView>

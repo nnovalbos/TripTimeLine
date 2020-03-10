@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:utility="clr-namespace:TripTimeLine.Common"
+             utility:ViewModelLocator.AutoWireViewModel="True"
+             NavigationPage.BackButtonTitle=""
+             x:Class="TripTimeLine.Views.TripsView">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Button HeightRequest="100" WidthRequest="300" Text="GO TO DETAIL" TextColor="{StaticResource AccentColor}"
+                    HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource PrimaryColor}"
+                Command="{Binding GoToDetailCommand}" CommandParameter="254545"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

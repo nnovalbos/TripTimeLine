@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" 
+             x:Class="TripTimeLine.Views.Templates.GroupFooterTemplate">
+
+    <ContentView.Content>
+
+         <Grid>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="120" />
+              <ColumnDefinition Width="40" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+             <BoxView
+              Grid.Row="1"
+              Grid.Column="1"
+              Style="{StaticResource NoEventPoint}"/>
+
+             <BoxView
+              Grid.Row="2"
+              Grid.Column="1"
+              Style="{StaticResource NoEventPoint}"/>
+
+            <BoxView
+              Grid.Row="0"
+              Grid.Column="1"
+
+              Style="{StaticResource EventTimeLineFooter}"/>
+
+             <BoxView
+              Grid.Row="0"
+              Grid.Column="1"
+              Style="{StaticResource EventPoint}"  
+              Margin="0,0,0,5"/>
+
+
+              <Label Style="{StaticResource GroupEventsKeyLabelStyle}"
+                   Text="{Binding Heading, Converter={StaticResource DateTimePlusDaysConverter}}"
+                   d:Text="1/18/2019" />
+
+             
+
+          </Grid>
+    </ContentView.Content>
+</ContentView>
+

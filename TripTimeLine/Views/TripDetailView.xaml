@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:utility="clr-namespace:TripTimeLine.Common"
+             xmlns:models="clr-namespace:TripTimeLine.Models"
+             xmlns:templates="clr-namespace:TripTimeLine.Views.Templates"
+             xmlns:customControls="clr-namespace:TripTimeLine.CustomControls"
+             utility:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d"
+             x:Name="DetailView"
+             x:Class="TripTimeLine.Views.TripDetailView">
+
+    <ContentPage.Content>
+        <AbsoluteLayout>
+
+
+            <StackLayout IsVisible="{Binding IsBusy, Converter={StaticResource BooleanInverterConverter}}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Spacing="0">
+                <Image x:Name="map" Source="map.gif" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+                <StackLayout x:Name="detailsPanel" Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Spacing="0" Margin="5,0" BackgroundColor="{StaticResource AccentColor}">
+                    <customControls:TripDetailIcon Image="TripTime.png" TitleText="{Binding TripTime, StringFormat='{0} h'}" FontSize="17" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <customControls:TripDetailIcon Image="TripKm.png" TitleText="{Binding TripKm, StringFormat='{0} km'}" FontSize="12" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <customControls:TripDetailIcon Image="TripConsumption.png" TitleText="{Binding TripFuelConsumption, StringFormat='{0} L'}" FontSize="12" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <customControls:TripDetailIcon Image="TripConsumption.png" TitleText="{Binding TripFuelConsumptionLitersPerHour, StringFormat='{0} L/h'}" FontSize="17" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+
+            </StackLayout>
+
+            <CollectionView VerticalOptions="FillAndExpand"
+                      IsVisible="{Binding IsBusy, Converter={StaticResource BooleanInverterConverter}}"
+                      IsGrouped="True"
+                      SelectionMode="None"
+                      Margin="0"
+                      ItemsSource="{Binding TripEvents}"
+                      HorizontalOptions="FillAndExpand">
+
+                <CollectionView.Header>
+                    <StackLayout>
+                        <Label HeightRequest="{Binding TransparentViewLabel}" d:HeightRequest="280"/>
+                        <templates:TripStartEndTemplate TripEventIcon ="TripStart.png" BindingContext="{Binding TripStart}" BackgroundColor="{StaticResource TripTrackingColor}"/>
+                    </StackLayout>
+                </CollectionView.Header>
+
+                <CollectionView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <ContentView>
+                            <templates:GroupHeaderTemplate BackgroundColor="{StaticResource TripTrackingColor}" Padding="0,5,0,0"/>
+                        </ContentView>
+                    </DataTemplate>
+                </CollectionView.GroupHeaderTemplate>
+
+                <CollectionView.GroupFooterTemplate>
+                    <DataTemplate>
+                        <ContentView>
+                            <templates:GroupFooterTemplate BackgroundColor="{StaticResource TripTrackingColor}" Padding="0,0,0,5"/>
+                        </ContentView>
+                    </DataTemplate>
+                </CollectionView.GroupFooterTemplate>
+
+
+                <d:CollectionView.ItemsSource>
+                    <x:Array Type="{x:Type models:TripEvent}">
+                        <models:TripEvent Name="Event1" Date="{x:Static sys:DateTime.Today}"/>
+                        <models:TripEvent Name="Event2" Date="{x:Static sys:DateTime.Today}"/>
+                    </x:Array>
+                </d:CollectionView.ItemsSource>
+
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView>
+                            <templates:TripEventTemplate BackgroundColor="{StaticResource TripTrackingColor}" VerticalOptions="FillAndExpand" Padding="0" Margin="0" />
+                        </ContentView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+                <CollectionView.Footer>
+                    <ContentView>
+                        <templates:TripStartEndTemplate TripEventIcon ="TripStop.png" BindingContext="{Binding TripEnd}" BackgroundColor="{StaticResource TripTrackingColor}" Padding="0,0,0,15"/>
+                    </ContentView>
+                </CollectionView.Footer>
+
+            </CollectionView>
+
+            <customControls:ActivityIndicatorPanel TitleText="Loading..." AbsoluteLayout.LayoutBounds="0.5, 0.5, -1, -1" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

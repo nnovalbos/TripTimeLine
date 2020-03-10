@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TripTimeLine.Views.Templates.TripEventTemplate">
+    <ContentView.Content>
+           <Grid RowSpacing="0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="120" />
+              <ColumnDefinition Width="40" />
+              <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+         
+              <BoxView
+              Grid.Row="0"
+              Grid.Column="1"
+              HorizontalOptions="Start"
+              VerticalOptions="Center"
+              HeightRequest="1"
+              WidthRequest="50"
+              BackgroundColor="{StaticResource EventNameTextColor}"/>
+
+               
+
+              <BoxView
+              Grid.Row="0"
+              Grid.Column="1"
+                  HorizontalOptions="CenterAndExpand"
+              Style="{StaticResource EventTimeLineBody}"/>
+
+             
+
+              <BoxView
+              Grid.Row="0"
+              Grid.Column="1"
+              VerticalOptions="CenterAndExpand"
+              Style="{StaticResource EventPoint}"/>
+
+
+
+               <Label
+                   Text="{Binding Date, StringFormat='{0:HH:mm tt}'}"
+                   Style="{StaticResource EventInfoLabelStyle}"
+                  
+                   d:Text="10:39" />
+
+            <Label Grid.Column="2" 
+                   Text="{Binding Name}"
+                   Style="{StaticResource EventInfoLabelStyle}"
+                   d:Text="Event 3-0-0" />
+
+          </Grid>
+    </ContentView.Content>
+</ContentView>

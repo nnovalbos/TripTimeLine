@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TripTimeLine.CustomControls.TripDetailIcon">
+    <Grid x:Name="grid" 
+          ColumnSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="36"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="image"
+               Source="TripKm.png"
+               HeightRequest="24"
+               WidthRequest="24"
+               HorizontalOptions="Center"/>
+        
+        <Label x:Name="title"
+               Text="300 km"
+               Grid.Column="1" 
+               FontSize="14"
+               VerticalOptions="Center"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"/>
+    </Grid>
+</ContentView>
