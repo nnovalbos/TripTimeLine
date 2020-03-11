@@ -1,7 +1,9 @@
 ﻿namespace TripTimeLine.Views.Templates
 {
+    using System.ComponentModel;
     using Xamarin.Forms;
 
+    [DesignTimeVisible(true)]
     public partial class TripStartEndTemplate : ContentView
     {
         public TripStartEndTemplate()

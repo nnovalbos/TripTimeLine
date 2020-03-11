@@ -61,10 +61,26 @@
 
 
                 <d:CollectionView.ItemsSource>
-                    <x:Array Type="{x:Type models:TripEvent}">
-                        <models:TripEvent Name="Event1" Date="{x:Static sys:DateTime.Now}"/>
-                        <models:TripEvent Name="Event2" Date="{x:Static sys:DateTime.Now}"/>
+                    
+                    <x:Array Type="{x:Type models:GroupList}">
+                        <models:GroupList Heading="12/12/2020" x:TypeArguments="models:TripEvent">
+                            <models:TripEvent Name="Event1" Date="{x:Static sys:DateTime.Now}"/>
+                            <models:TripEvent Name="Event2" Date="{x:Static sys:DateTime.Now}"/>
+                      </models:GroupList>
+                          <models:GroupList Heading="13/12/2020" x:TypeArguments="models:TripEvent">
+                            <models:TripEvent Name="Event1" Date="{x:Static sys:DateTime.Now}"/>
+                            <models:TripEvent Name="Event2" Date="{x:Static sys:DateTime.Now}"/>
+                      </models:GroupList>
                     </x:Array>
+                    
+                    
+                <!--
+                    <models:GroupList Heading="12/12/2020" x:TypeArguments="models:TripEvent">
+                            <models:TripEvent Name="Event1"/>
+                            <models:TripEvent Name="Event2" Date="{x:Static sys:DateTime.Now}"/>
+                     </models:GroupList>
+               -->
+                    
                 </d:CollectionView.ItemsSource>
 
 
