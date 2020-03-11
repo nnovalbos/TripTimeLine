@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Threading.Tasks;
-using TripTimeLine.Contracts.Services;
-using TripTimeLine.Models;
-using TripTimeLine.ViewModels.Base;
-
-namespace TripTimeLine.ViewModels
+﻿namespace TripTimeLine.ViewModels
 {
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using TripTimeLine.Contracts.Services;
+    using TripTimeLine.Models;
+    using TripTimeLine.ViewModels.Base;
+
     public class TripDetailViewModel : BaseViewModel
     {
         private readonly ITripsService tripsService;
@@ -19,7 +18,7 @@ namespace TripTimeLine.ViewModels
         private string tripFuelConsumptionLitersPerHour;
         private TripEvent tripStart;
         private TripEvent tripEnd;
-        private double transparentViewLabel;
+        private double transparentViewLabelHeight;
 
 
         private IEnumerable<GroupList<TripEvent>> tripEvents;
@@ -101,12 +100,12 @@ namespace TripTimeLine.ViewModels
             }
         }
 
-        public double TransparentViewLabel
+        public double TransparentViewLabelHeight
         {
-            get => transparentViewLabel;
+            get => transparentViewLabelHeight;
             set
             {
-                transparentViewLabel = value;
+                transparentViewLabelHeight = value;
                 OnPropertyChanged();
             }
         }
@@ -159,6 +158,6 @@ namespace TripTimeLine.ViewModels
             return eventList;
         }
 
-        
+
     }
 }

@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.ObjectModel;
-using Newtonsoft.Json;
-using TripTimeLine.Models;
-
-namespace TripTimeLine.Common
+﻿namespace TripTimeLine.Common
 {
+    using System;
+    using System.Collections.ObjectModel;
+    using Newtonsoft.Json;
+    using TripTimeLine.Models;
+
     public static class MockDataUtils
     {
         public static string GetJsonDataFromService()

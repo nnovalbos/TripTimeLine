@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using Xamarin.Forms;
-
-namespace TripTimeLine.CustomControls
+﻿namespace TripTimeLine.CustomControls
 {
+    using Xamarin.Forms;
+
     public partial class ActivityIndicatorPanel : ContentView
     {
         public ActivityIndicatorPanel()
@@ -21,7 +19,7 @@ namespace TripTimeLine.CustomControls
                                                          propertyName: nameof(TitleText),
                                                          returnType: typeof(string),
                                                          declaringType: typeof(ActivityIndicatorPanel),
-                                                         defaultValue: "",
+                                                         defaultValue: string.Empty,
                                                          defaultBindingMode: BindingMode.Default,
                                                          propertyChanged: TitleTextPropertyChanged);
 

@@ -33,7 +33,7 @@
                                                          propertyName: nameof(TitleText),
                                                          returnType: typeof(string),
                                                          declaringType: typeof(TripDetailIcon),
-                                                         defaultValue: "",
+                                                         defaultValue: string.Empty,
                                                          defaultBindingMode: BindingMode.Default,
                                                          propertyChanged: TitleTextPropertyChanged);
 
@@ -51,7 +51,7 @@
                                                         propertyName: nameof(Image),
                                                         returnType: typeof(string),
                                                         declaringType: typeof(TripDetailIcon),
-                                                        defaultValue: "",
+                                                        defaultValue: string.Empty,
                                                         defaultBindingMode: BindingMode.TwoWay,
                                                         propertyChanged: ImageSourcePropertyChanged);
 

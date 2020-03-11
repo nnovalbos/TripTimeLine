@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
-using Xamarin.Forms;
-
-namespace TripTimeLine.Views
+﻿namespace TripTimeLine.Views
 {
+    using Xamarin.Forms;
+
     public partial class NavigationView : NavigationPage
     {
         public NavigationView()

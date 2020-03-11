@@ -6,8 +6,8 @@
 
     public class BaseViewModel : BindableObject
     {
-        protected readonly INavigationService navigationService;
         private bool isBusy;
+        protected readonly INavigationService navigationService;
 
         public BaseViewModel(INavigationService navigationService)
         {

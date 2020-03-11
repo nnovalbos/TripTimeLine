@@ -3,20 +3,20 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:converters="clr-namespace:TripTimeLine.Converters"
-             mc:Ignorable="d" x:Class="TripTimeLine.App">
+             mc:Ignorable="d"
+             x:Class="TripTimeLine.App">
+
     <Application.Resources>
-         <ResourceDictionary>
 
-             <Color x:Key="PrimaryColor">LightSkyBlue</Color> 
-             <Color x:Key= "AccentColor">#FFFFFF</Color>
+        <ResourceDictionary>
+            <Color x:Key="PrimaryColor">LightSkyBlue</Color>
+            <Color x:Key= "AccentColor">#FFFFFF</Color>
 
-             <ResourceDictionary Source ="Styles/TripViewStyle.xaml"></ResourceDictionary>
-
-             
+            <ResourceDictionary Source ="Styles/TripViewStyle.xaml"></ResourceDictionary>
 
             <converters:BooleanInverterValueConverter x:Key="BooleanInverterConverter"/>
             <converters:DateTimePlusDaysConverter x:Key="DateTimePlusDaysConverter"/>
-             
         </ResourceDictionary>
+
     </Application.Resources>
 </Application>

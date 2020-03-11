@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using Xamarin.Forms;
-
-namespace TripTimeLine.Views.Templates
+﻿namespace TripTimeLine.Views.Templates
 {
+    using Xamarin.Forms;
+
     public partial class TripEventTemplate : ContentView
     {
         public TripEventTemplate()

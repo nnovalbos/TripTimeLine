@@ -44,7 +44,8 @@
                 var nv = new NavigationView(page);
                 Application.Current.MainPage = nv;
 
-            }else if (Application.Current.MainPage is NavigationView navigationPage)
+            }
+            else if (Application.Current.MainPage is NavigationView navigationPage)
             {
                 await navigationPage.PushAsync(page);
             }
@@ -52,7 +53,7 @@
             {
                 throw new NotSupportedException();
             }
-            
+
 
             await (page.BindingContext as BaseViewModel).InitializeAsync(parameter);
         }

@@ -5,7 +5,6 @@
     using System.Reflection;
     using Xamarin.Forms;
 
-
     public static class ViewModelLocator
     {
         public static readonly BindableProperty AutoWireViewModelProperty =

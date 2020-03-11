@@ -1,15 +1,16 @@
-﻿using System;
-using System.Globalization;
-using Xamarin.Forms;
-
-namespace TripTimeLine.Converters
+﻿namespace TripTimeLine.Converters
 {
+    using System;
+    using System.Globalization;
+    using Xamarin.Forms;
+
     public class DateTimePlusDaysConverter : IValueConverter
     {
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             var days = 1;
+
             if (parameter != null && parameter is int numDays)
             {
                 days = numDays;

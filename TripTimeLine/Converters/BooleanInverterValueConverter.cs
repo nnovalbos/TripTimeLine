@@ -4,7 +4,6 @@
     using System.Globalization;
     using Xamarin.Forms;
 
-
     public class BooleanInverterValueConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)

@@ -5,11 +5,14 @@
              utility:ViewModelLocator.AutoWireViewModel="True"
              NavigationPage.BackButtonTitle=""
              x:Class="TripTimeLine.Views.TripsView">
+
     <ContentPage.Content>
+
         <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <Button HeightRequest="100" WidthRequest="300" Text="GO TO DETAIL" TextColor="{StaticResource AccentColor}"
+            <Button HeightRequest="50" WidthRequest="150" Text="GO TO DETAIL" TextColor="{StaticResource AccentColor}"
                     HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource PrimaryColor}"
                 Command="{Binding GoToDetailCommand}" CommandParameter="254545"/>
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

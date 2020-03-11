@@ -21,13 +21,13 @@
         private void DetailsPanel_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             var vm = BindingContext as TripDetailViewModel;
-            vm.TransparentViewLabel = map.Height + detailsPanel.Height;
+            vm.TransparentViewLabelHeight = map.Height + detailsPanel.Height;
         }
 
         private void Map_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             var vm = BindingContext as TripDetailViewModel;
-            vm.TransparentViewLabel = map.Height + detailsPanel.Height;
+            vm.TransparentViewLabelHeight = map.Height + detailsPanel.Height;
         }
     }
 }

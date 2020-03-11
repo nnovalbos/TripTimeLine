@@ -8,15 +8,15 @@
 
     <ContentView.Content>
 
-         <Grid> 
+        <Grid>
             <Grid.ColumnDefinitions>
-              <ColumnDefinition Width="120" />
-              <ColumnDefinition Width="40" />
+                <ColumnDefinition Width="120" />
+                <ColumnDefinition Width="40" />
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-              <RowDefinition Height="Auto" />
-              <RowDefinition Height="Auto" />
-              <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
             <BoxView
@@ -24,7 +24,7 @@
                 Grid.Column="1"
                 Style="{StaticResource NoEventPoint}"/>
 
-              <BoxView
+            <BoxView
                Grid.Row="1"
                Grid.Column="1"
                Style="{StaticResource NoEventPoint}"/>
@@ -34,17 +34,17 @@
               Grid.Column="1"
               Style="{StaticResource EventTimeLineHeader}"/>
 
-              <BoxView
-                 
+            <BoxView 
               Grid.Row="2"
               Grid.Column="1"
+              VerticalOptions="Center"
               Style="{StaticResource EventPoint}"/>
 
-             <Label Grid.RowSpan="3" Style="{StaticResource GroupEventsKeyLabelStyle}"
-                   Text="{Binding Heading}" 
+            <Label Grid.RowSpan="3" 
+                   Text="{Binding Heading}"
+                   Style="{StaticResource GroupEventsKeyLabelStyle}"
                    d:Text="1/18/2019" />
+        </Grid>
 
-
-          </Grid>
     </ContentView.Content>
 </ContentView>

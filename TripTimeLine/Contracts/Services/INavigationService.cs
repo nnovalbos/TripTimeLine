@@ -1,9 +1,8 @@
-﻿using System;
-using System.Threading.Tasks;
-using TripTimeLine.ViewModels.Base;
-
-namespace TripTimeLine.Contracts.Services
+﻿namespace TripTimeLine.Contracts.Services
 {
+    using System.Threading.Tasks;
+    using TripTimeLine.ViewModels.Base;
+
     public interface INavigationService
     {
         Task InitializeAsync();

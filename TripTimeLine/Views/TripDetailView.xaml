@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
              xmlns:utility="clr-namespace:TripTimeLine.Common"
              xmlns:models="clr-namespace:TripTimeLine.Models"
              xmlns:templates="clr-namespace:TripTimeLine.Views.Templates"
@@ -14,8 +14,8 @@
              x:Class="TripTimeLine.Views.TripDetailView">
 
     <ContentPage.Content>
-        <AbsoluteLayout>
 
+        <AbsoluteLayout>
 
             <StackLayout IsVisible="{Binding IsBusy, Converter={StaticResource BooleanInverterConverter}}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Spacing="0">
                 <Image x:Name="map" Source="map.gif" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
@@ -38,15 +38,15 @@
 
                 <CollectionView.Header>
                     <StackLayout>
-                        <Label HeightRequest="{Binding TransparentViewLabel}" d:HeightRequest="280"/>
-                        <templates:TripStartEndTemplate TripEventIcon ="TripStart.png" BindingContext="{Binding TripStart}" BackgroundColor="{StaticResource TripTrackingColor}"/>
+                        <Label HeightRequest="{Binding TransparentViewLabelHeight}" d:HeightRequest="280"/>
+                        <templates:TripStartEndTemplate TripEventIcon ="TripStart.png" BindingContext="{Binding TripStart}" BackgroundColor="{StaticResource TripTrackingColor}" Padding="0,0,0,6"/>
                     </StackLayout>
                 </CollectionView.Header>
 
                 <CollectionView.GroupHeaderTemplate>
                     <DataTemplate>
                         <ContentView>
-                            <templates:GroupHeaderTemplate BackgroundColor="{StaticResource TripTrackingColor}" Padding="0,5,0,0"/>
+                            <templates:GroupHeaderTemplate BackgroundColor="{StaticResource TripTrackingColor}"/>
                         </ContentView>
                     </DataTemplate>
                 </CollectionView.GroupHeaderTemplate>
@@ -54,7 +54,7 @@
                 <CollectionView.GroupFooterTemplate>
                     <DataTemplate>
                         <ContentView>
-                            <templates:GroupFooterTemplate BackgroundColor="{StaticResource TripTrackingColor}" Padding="0,0,0,5"/>
+                            <templates:GroupFooterTemplate BackgroundColor="{StaticResource TripTrackingColor}" Padding="0,0,0,6"/>
                         </ContentView>
                     </DataTemplate>
                 </CollectionView.GroupFooterTemplate>
@@ -62,8 +62,8 @@
 
                 <d:CollectionView.ItemsSource>
                     <x:Array Type="{x:Type models:TripEvent}">
-                        <models:TripEvent Name="Event1" Date="{x:Static sys:DateTime.Today}"/>
-                        <models:TripEvent Name="Event2" Date="{x:Static sys:DateTime.Today}"/>
+                        <models:TripEvent Name="Event1" Date="{x:Static sys:DateTime.Now}"/>
+                        <models:TripEvent Name="Event2" Date="{x:Static sys:DateTime.Now}"/>
                     </x:Array>
                 </d:CollectionView.ItemsSource>
 
@@ -71,7 +71,7 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <ContentView>
-                            <templates:TripEventTemplate BackgroundColor="{StaticResource TripTrackingColor}" VerticalOptions="FillAndExpand" Padding="0" Margin="0" />
+                            <templates:TripEventTemplate BackgroundColor="{StaticResource TripTrackingColor}"/>
                         </ContentView>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
@@ -86,7 +86,7 @@
 
             <customControls:ActivityIndicatorPanel TitleText="Loading..." AbsoluteLayout.LayoutBounds="0.5, 0.5, -1, -1" AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
-
         </AbsoluteLayout>
+
     </ContentPage.Content>
 </ContentPage>
