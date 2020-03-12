@@ -17,28 +17,21 @@
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
 
-            <Label HorizontalOptions="Center" VerticalOptions="Center"
-                   Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}"
-                   FontAttributes="Bold" Margin="5,0"
-                   d:Text="1/18/2019" />
+            <Label 
+              Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}"
+              Style="{StaticResource TripStartDayStyle}"
+              d:Text="1/18/2019" />
 
             <Label
               Grid.Column="2"
-              FontAttributes="Bold"
               Text="{Binding Name}"
-              HorizontalTextAlignment="Start"
-              HorizontalOptions="StartAndExpand"
-              VerticalOptions="Center"
-              LineBreakMode="TailTruncation"
+              Style="{StaticResource TripStartNameStyle}"
               d:Text="STARTTEST-3"/>
 
             <Label
               Grid.Column="3"
-              Margin="5,0"
-              FontAttributes="Bold"
               Text="{Binding Date, StringFormat='{0:HH:mm tt}'}"
-              VerticalOptions="Center"
-              HorizontalTextAlignment="End"
+              Style="{StaticResource TripStartHourStyle}"
               d:Text="10:48:08 AM"/>
 
             <Image x:Name="tripEventIcon" Grid.Column="1" VerticalOptions="Center" HeightRequest="30" Source="TripStart.png" />

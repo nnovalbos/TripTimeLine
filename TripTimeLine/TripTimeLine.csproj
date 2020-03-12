@@ -26,5 +26,6 @@
     <Folder Include="Converters\" />
     <Folder Include="Repositories\" />
     <Folder Include="Contracts\Repositories\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
 </Project>

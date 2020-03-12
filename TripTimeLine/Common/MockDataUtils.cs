@@ -1,32 +1,32 @@
 ﻿namespace TripTimeLine.Common
 {
     using System;
+    using System.Collections.Generic;
     using System.Collections.ObjectModel;
+    using TripTimeLine.Extensions;
     using Newtonsoft.Json;
     using TripTimeLine.Models;
 
     public static class MockDataUtils
     {
-        public static string GetJsonDataFromService()
+        private static Trip mockDataObj = new Trip
         {
-            var mockDataObj = new Trip
+            Duration = 3,
+            Kilometers = 300,
+            FuelConsumption = 50,
+            FuelConsumptionLitersPerHour = 0.16,
+            StartTrip = new TripEvent
             {
-                Duration = 3,
-                Kilometers = 300,
-                FuelConsumption = 50,
-                FuelConsumptionLitersPerHour = 0.16,
-                StartTrip = new TripEvent
-                {
-                    Date = DateTime.Now,
-                    Name = "STARTTEST-3"
-                },
-                EndTrip = new TripEvent
-                {
-                    Date = DateTime.Now + TimeSpan.FromDays(2),
-                    Name = "ENDTEST-3"
-                },
+                Date = DateTime.Now,
+                Name = "STARTTEST-3"
+            },
+            EndTrip = new TripEvent
+            {
+                Date = DateTime.Now + TimeSpan.FromDays(2),
+                Name = "ENDTEST-3"
+            },
 
-                TripEvents = new ObservableCollection<TripEvent>
+            TripEvents = new ObservableCollection<TripEvent>
                 {
                     new TripEvent
                     {
@@ -74,8 +74,12 @@
                         Name = "Event-3-2-2"
                     }
                 }
-            };
+        };
 
+        public static IEnumerable<GroupList<TripEvent>> PreviewData => mockDataObj.GetEventsGrouped();
+
+        public static string GetJsonDataFromService()
+        {
             return JsonConvert.SerializeObject(mockDataObj);
         }
     }

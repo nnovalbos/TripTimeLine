@@ -1,12 +1,11 @@
 ﻿namespace TripTimeLine.ViewModels
 {
     using System.Collections.Generic;
-    using System.Collections.ObjectModel;
-    using System.Linq;
     using System.Threading.Tasks;
     using TripTimeLine.Contracts.Services;
     using TripTimeLine.Models;
     using TripTimeLine.ViewModels.Base;
+    using TripTimeLine.Extensions;
 
     public class TripDetailViewModel : BaseViewModel
     {
@@ -126,38 +125,9 @@
             TripFuelConsumptionLitersPerHour = trip.FuelConsumptionLitersPerHour.ToString();
             TripStart = trip.StartTrip;
             TripEnd = trip.EndTrip;
-            TripEvents = CreateGroupList(trip.TripEvents);
+            TripEvents = trip.GetEventsGrouped();
 
 
         }
-
-        private IEnumerable<GroupList<TripEvent>> CreateGroupList(IEnumerable<TripEvent> events)
-        {
-            var eventList = new ObservableCollection<GroupList<TripEvent>>();
-
-            var queryEventsByDate =
-                from ev in events
-                group ev by ev.Date.Day into newGroup
-                orderby newGroup.Key
-                select newGroup;
-
-            foreach (var nameGroup in queryEventsByDate)
-            {
-                var tripEvent = new GroupList<TripEvent>();
-
-                foreach (var TripEvent in nameGroup)
-                {
-                    tripEvent.Add(TripEvent);
-                }
-
-                tripEvent.Heading = tripEvent[0].Date.ToString("dd/MM/yyyy");
-
-                eventList.Add(tripEvent);
-            }
-
-            return eventList;
-        }
-
-
     }
 }

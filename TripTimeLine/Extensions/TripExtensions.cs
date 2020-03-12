@@ -1,31 +1,18 @@
-﻿namespace TripTimeLine.Models
+﻿namespace TripTimeLine.Extensions
 {
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.Linq;
+    using TripTimeLine.Models;
 
-    public class Trip
+    public static class TripExtensions
     {
-        public int Duration { get; set; }
-
-        public double Kilometers { get; set; }
-
-        public double FuelConsumption { get; set; }
-
-        public double FuelConsumptionLitersPerHour { get; set; }
-
-        public TripEvent StartTrip { get; set; }
-
-        public TripEvent EndTrip { get; set; }
-
-        public IEnumerable<TripEvent> TripEvents { get; set; }
-
-        public IEnumerable<GroupList<TripEvent>> CreateGroupList()
+        public static IEnumerable<GroupList<TripEvent>> GetEventsGrouped(this Trip trip)
         {
             var eventList = new ObservableCollection<GroupList<TripEvent>>();
 
             var queryEventsByDate =
-                from ev in TripEvents
+                from ev in trip.TripEvents
                 group ev by ev.Date.Day into newGroup
                 orderby newGroup.Key
                 select newGroup;
@@ -46,6 +33,5 @@
 
             return eventList;
         }
-
     }
 }
