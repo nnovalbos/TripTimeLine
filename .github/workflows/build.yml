@@ -17,7 +17,9 @@ jobs:
       - name: Setup JDK 11
         uses: actions/setup-java@v2
         with:
-          java-version: '11'
+          java-version: 11
+          distribution: 'zulu'
+          distribution-version: '11.0.13'
 
       - name: Cache SonarCloud packages
         uses: actions/cache@v2
