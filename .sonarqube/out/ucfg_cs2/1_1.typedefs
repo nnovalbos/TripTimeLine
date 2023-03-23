@@ -1,0 +1,5 @@
+ê
+TripTimeLine.Droid.MainActivity5Xamarin.Forms.Platform.Android.FormsAppCompatActivity(Android.Support.V7.App.AppCompatActivity'Android.Support.V4.App.FragmentActivityAndroid.App.Activity!Android.Views.ContextThemeWrapperAndroid.Content.ContextWrapperAndroid.Content.ContextJava.Lang.ObjectobjectZ
+OnCreate(Android.OS.Bundle);TripTimeLine.Droid.MainActivity.OnCreate(Android.OS.Bundle)∏
+JOnRequestPermissionsResult(int, string[], Android.Content.PM.Permission[])jTripTimeLine.Droid.MainActivity.OnRequestPermissionsResult(int, string[], Android.Content.PM.Permission[])@
+MainActivity().TripTimeLine.Droid.MainActivity.MainActivity()

@@ -1,0 +1,23 @@
+
+lTripTimeLine.ViewModels.Base.BaseViewModel.BaseViewModel(TripTimeLine.Contracts.Services.INavigationService)€
+v/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/ViewModels/Base/BaseViewModel.cs ("1*u
+1	 (	a
+_
+
+%0void"-Xamarin.Forms.BindableObject.BindableObject()*" 
+Xamarin.Forms.BindableObject*
+0*î
+0 (6Ù
+Ö
+ (6w,
+*TripTimeLine.ViewModels.Base.BaseViewModel"G
+navigationService2TripTimeLine.Contracts.Services.INavigationService"__id*KI
+G
+navigationService2TripTimeLine.Contracts.Services.INavigationService*
+2*.
+2	 (	"
+ (	
+implicit return:S
+ (AG
+navigationService2TripTimeLine.Contracts.Services.INavigationServiceB.,
+*TripTimeLine.ViewModels.Base.BaseViewModel

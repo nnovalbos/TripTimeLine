@@ -1,0 +1,26 @@
+
+ÄTripTimeLine.Converters.BooleanInverterValueConverter.ConvertBack(object, System.Type, object, System.Globalization.CultureInfo)å
+Å/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Converters/BooleanInverterValueConverter.cs (!"0*⁄
+0 (-NL
+ (-"
+%0System.NotSupportedException"System.NotSupportedExceptionv
+t
+ (+
+
+%1void"4System.NotSupportedException.NotSupportedException()*&$
+"
+%0System.NotSupportedException*
+1*.
+1	 (	"
+ (	
+implicit return:
+" (.
+valueobject:%
+0 (?
+
+targetTypeSystem.Type:
+A (Q
+	parameterobject:7
+S (f+
+culture System.Globalization.CultureInfoB97
+5TripTimeLine.Converters.BooleanInverterValueConverter

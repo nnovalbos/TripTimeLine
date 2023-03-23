@@ -1,0 +1,24 @@
+
+CTripTimeLine.Views.Templates.TripStartEndTemplate.TripEventIcon.setç
+Ç/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Views/Templates/TripStartEndTemplate.xaml.cs ("0*ù
+0 (4•
+¢
+  (-$
+%0Xamarin.Forms.BindableProperty"__id*jh*f3
+1TripTimeLine.Views.Templates.TripStartEndTemplate"/
+ImagePropertyXamarin.Forms.BindableProperty‡
+›
+ (5
+
+%1void"MXamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty, object)*753
+1TripTimeLine.Views.Templates.TripStartEndTemplate*(&
+$
+%0Xamarin.Forms.BindableProperty*
+
+valuestring*
+1*.
+18 (8"
+7 (8
+implicit return:
+valuestringB53
+1TripTimeLine.Views.Templates.TripStartEndTemplate

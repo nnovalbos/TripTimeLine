@@ -1,0 +1,25 @@
+
+2TripTimeLine.Services.TripsService.GetTrip(string)x
+n/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Services/TripsService.cs  ('"0*ù
+0 (LÃ
+À
+ (#<
+%06TripTimeLine.Contracts.Repositories.IGenericRepository"__id*pn*l$
+"TripTimeLine.Services.TripsService"D
+
+repository6TripTimeLine.Contracts.Repositories.IGenericRepositoryŒ
+ (M*
+%1$System.Threading.Tasks.Task<TResult>"RTripTimeLine.Contracts.Repositories.IGenericRepository.GetAsync<T>(string, string)*@>
+<
+%06TripTimeLine.Contracts.Repositories.IGenericRepository*
+
+http://...*
+	sdsssdsds2GetAsync<T>(string, string)"
+ (N
+""*.
+1	 (	"
+ (	
+implicit return:
+( (5
+tripIdstringB&$
+"TripTimeLine.Services.TripsService

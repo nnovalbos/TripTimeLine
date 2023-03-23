@@ -1,0 +1,110 @@
+
+xTripTimeLine.Converters.DateTimePlusDaysConverter.Convert(object, System.Type, object, System.Globalization.CultureInfo)‡
+}/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Converters/DateTimePlusDaysConverter.cs
+ 
+("0*­
+0 (!'
+%
+ (
+daysint"__id*2m
+k
+ (!
+
+%0bool""object.operator !=(object, object)*
+"
+object*
+
+	parameterobject*
+""*
+1
+2*R
+1% (=;
+9
+% (=
+numDaysint"__id*
+
+	parameterobject*
+3
+2*G
+3 (3
+1
+ (
+daysint"__id*
+
+numDaysint*
+2*Q
+2 (&:
+8
+ (&
+strDatestring"__id*
+
+valueobject*
+4
+5*ˆ
+4 (1”
+‘
+F (b&
+%1 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*&$""
+ System.Globalization.CultureInfoÔ
+Ñ
+ (c
+%2System.DateTime"BSystem.DateTime.ParseExact(string, string, System.IFormatProvider)*"
+System.DateTime*
+
+strDatestring*
+
+dd/MM/yyyy**(
+&
+%1 System.Globalization.CultureInfoF
+D
+ (c
+dateSystem.DateTime"__id*
+
+%2System.DateTimer
+p
+ ()
+%3System.DateTime"System.DateTime.AddDays(double)*
+
+dateSystem.DateTime*
+
+daysintF
+D
+ ()
+dateSystem.DateTime"__id*
+
+%3System.DateTimek
+i
+ (2
+%4string" System.DateTime.ToString(string)*
+
+dateSystem.DateTime*
+
+dd/MM/yyyy"
+ (3
+
+%4string*,
+5 ("
+ (
+
+valueobject*.
+6	 (	"
+ (	
+implicit return:
+
+ 
+(*
+valueobject:%
+
+, 
+(;
+
+targetTypeSystem.Type:
+
+= 
+(M
+	parameterobject:7
+
+O 
+(b+
+culture System.Globalization.CultureInfoB53
+1TripTimeLine.Converters.DateTimePlusDaysConverter

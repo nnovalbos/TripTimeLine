@@ -1,0 +1,49 @@
+
+CTripTimeLine.ViewModels.TripDetailViewModel.InitializeAsync(object)Å
+w/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/ViewModels/TripDetailViewModel.csp# p(2"0*˘
+0r u(å
+â
+r r(
+
+%0bool"5TripTimeLine.ViewModels.Base.BaseViewModel.IsBusy.set*0.,
+*TripTimeLine.ViewModels.Base.BaseViewModel*
+""º
+π
+s s(%3
+%1-TripTimeLine.Contracts.Services.ITripsService"__id*rp*n-
++TripTimeLine.ViewModels.TripDetailViewModel"=
+tripsService-TripTimeLine.Contracts.Services.ITripsService9
+7
+s. s(A
+%2object"__id*
+
+	parameterobject‘—
+s s(B*
+%3$System.Threading.Tasks.Task<TResult>"=TripTimeLine.Contracts.Services.ITripsService.GetTrip(string)*75
+3
+%1-TripTimeLine.Contracts.Services.ITripsService*
+
+%2object2GetTrip(string)o
+m
+s s(BQ-
++TripTimeLine.ViewModels.TripDetailViewModel" 
+tripTripTimeLine.Models.Trip"__id*
+""Ñ
+Å
+t t(
+
+%4void"6TripTimeLine.ViewModels.TripDetailViewModel.DrawData()*1/-
++TripTimeLine.ViewModels.TripDetailViewModelå
+â
+u u(
+
+%5bool"5TripTimeLine.ViewModels.Base.BaseViewModel.IsBusy.set*0.,
+*TripTimeLine.ViewModels.Base.BaseViewModel*
+""*
+1*.
+1v	 v(	"
+v v(	
+implicit return:
+p3 p(C
+	parameterobjectB/-
++TripTimeLine.ViewModels.TripDetailViewModel

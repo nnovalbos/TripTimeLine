@@ -1,0 +1,28 @@
+
+>TripTimeLine.Common.ViewModelLocator.ViewModelLocator()!staticz
+p/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Common/ViewModelLocator.cs (("0*½
+01 1(å
+â
+ (=$
+%0Xamarin.Forms.BindableProperty"–Xamarin.Forms.BindableProperty.CreateAttached(string, System.Type, System.Type, object, Xamarin.Forms.BindingMode, Xamarin.Forms.BindableProperty.ValidateValueDelegate, Xamarin.Forms.BindableProperty.BindingPropertyChangedDelegate, Xamarin.Forms.BindableProperty.BindingPropertyChangingDelegate, Xamarin.Forms.BindableProperty.CoerceValueDelegate, Xamarin.Forms.BindableProperty.CreateDefaultValueDelegate)*$"" 
+Xamarin.Forms.BindableProperty*
+AutoWireViewModel*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""¤
+¡
+
+0 (=e&
+$TripTimeLine.Common.ViewModelLocator";
+AutoWireViewModelPropertyXamarin.Forms.BindableProperty"__id*(&
+$
+%0Xamarin.Forms.BindableProperty"
+ 1(
+implicit returnB("&
+$TripTimeLine.Common.ViewModelLocator

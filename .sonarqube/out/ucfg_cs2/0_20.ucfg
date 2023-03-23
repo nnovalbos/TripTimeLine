@@ -1,0 +1,40 @@
+
+TripTimeLine.App.App()k
+a/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/App.xaml.cs
+ 
+("1*l
+1	 (	X
+V
+
+%0void"'Xamarin.Forms.Application.Application()*
+Xamarin.Forms.Application*
+0*þ
+0 (/X
+V
+ (!
+
+%1void"&TripTimeLine.App.InitializeComponent()*
+TripTimeLine.Appy
+w
+ (/
+
+%2void"7TripTimeLine.Common.AppContainer.RegisterDependencies()*&$""
+ TripTimeLine.Common.AppContainerž
+›
+$ (N8
+%32TripTimeLine.Contracts.Services.INavigationService"-TripTimeLine.Common.AppContainer.Resolve<T>()*&$""
+ TripTimeLine.Common.AppContainerš
+—
+ (NG
+navigationService2TripTimeLine.Contracts.Services.INavigationService"__id*<:
+8
+%32TripTimeLine.Contracts.Services.INavigationServiceÖÓ
+ (/!
+%4System.Threading.Tasks.Task"DTripTimeLine.Contracts.Services.INavigationService.InitializeAsync()*KI
+G
+navigationService2TripTimeLine.Contracts.Services.INavigationService2InitializeAsync()*
+2*.
+2	 (	"
+ (	
+implicit returnB
+TripTimeLine.App

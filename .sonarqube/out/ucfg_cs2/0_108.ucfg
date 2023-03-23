@@ -1,0 +1,77 @@
+
+7TripTimeLine.Common.AppContainer.RegisterDependencies()v
+l/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Common/AppContainer.cs (/"0*ù
+0 ((FD
+ (0
+%0Autofac.ContainerBuilder"Autofac.ContainerBuilderi
+g
+ (.
+
+%1void"+Autofac.ContainerBuilder.ContainerBuilder()*" 
+
+%0Autofac.ContainerBuilder[
+Y
+ (0#
+builderAutofac.ContainerBuilder"__id*" 
+
+%0Autofac.ContainerBuilderâ
+Ü
+ (2V
+%2PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"SAutofac.RegistrationExtensions.RegisterType<TImplementer>(Autofac.ContainerBuilder)*$"" 
+Autofac.RegistrationExtensions*'%
+#
+builderAutofac.ContainerBuilderâ
+Ü
+ (7V
+%3PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"SAutofac.RegistrationExtensions.RegisterType<TImplementer>(Autofac.ContainerBuilder)*$"" 
+Autofac.RegistrationExtensions*'%
+#
+builderAutofac.ContainerBuilderâ
+Ü
+ (5V
+%4PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"SAutofac.RegistrationExtensions.RegisterType<TImplementer>(Autofac.ContainerBuilder)*$"" 
+Autofac.RegistrationExtensions*'%
+#
+builderAutofac.ContainerBuilder≤Ø
+ (NV
+%5PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"_Autofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.As<TService>()*ZX
+V
+%4PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2As<TService>()â
+Ü
+ (0V
+%6PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"SAutofac.RegistrationExtensions.RegisterType<TImplementer>(Autofac.ContainerBuilder)*$"" 
+Autofac.RegistrationExtensions*'%
+#
+builderAutofac.ContainerBuilder≤Ø
+ (DV
+%7PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"_Autofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.As<TService>()*ZX
+V
+%6PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2As<TService>()â
+Ü
+ (9V
+%8PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"SAutofac.RegistrationExtensions.RegisterType<TImplementer>(Autofac.ContainerBuilder)*$"" 
+Autofac.RegistrationExtensions*'%
+#
+builderAutofac.ContainerBuilder≤Ø
+ (SV
+%9PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>"_Autofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>.As<TService>()*ZX
+V
+%8PAutofac.Builder.IRegistrationBuilder<TLimit, TActivatorData, TRegistrationStyle>2As<TService>()¢
+ü
+ ((
+%10Autofac.IContainer"EAutofac.ContainerBuilder.Build(Autofac.Builder.ContainerBuildOptions)*'%
+#
+builderAutofac.ContainerBuilder*
+""y
+w
+ ((F"
+ TripTimeLine.Common.AppContainer" 
+
+_containerAutofac.IContainer"__id*
+
+%10Autofac.IContainer*
+1*.
+1	 (	"
+ (	
+implicit returnB$""
+ TripTimeLine.Common.AppContainer

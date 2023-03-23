@@ -1,0 +1,7 @@
+Õ
+!TripTimeLine.Views.TripDetailViewXamarin.Forms.ContentPageXamarin.Forms.TemplatedPageXamarin.Forms.PageXamarin.Forms.VisualElementXamarin.Forms.NavigableElementXamarin.Forms.ElementXamarin.Forms.BindableObjectobjectF
+TripDetailView()2TripTimeLine.Views.TripDetailView.TripDetailView()@
+OnAppearing()/TripTimeLine.Views.TripDetailView.OnAppearing()Î
+TDetailsPanel_PropertyChanged(object, System.ComponentModel.PropertyChangedEventArgs)vTripTimeLine.Views.TripDetailView.DetailsPanel_PropertyChanged(object, System.ComponentModel.PropertyChangedEventArgs)¼
+KMap_PropertyChanged(object, System.ComponentModel.PropertyChangedEventArgs)mTripTimeLine.Views.TripDetailView.Map_PropertyChanged(object, System.ComponentModel.PropertyChangedEventArgs)P
+InitializeComponent()7TripTimeLine.Views.TripDetailView.InitializeComponent()

@@ -1,0 +1,21 @@
+
+9TripTimeLine.ViewModels.TripDetailViewModel.TripStart.setÅ
+w/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/ViewModels/TripDetailViewModel.csJ J("0*Œ
+0L M(#ú
+ô
+L L(![-
++TripTimeLine.ViewModels.TripDetailViewModel"*
+	tripStartTripTimeLine.Models.TripEvent"__id**(
+&
+valueTripTimeLine.Models.TripEventöó
+M M(#
+
+%0void"6Xamarin.Forms.BindableObject.OnPropertyChanged(string)*" 
+Xamarin.Forms.BindableObject*
+""2OnPropertyChanged(string)*
+1*.
+1N N("
+N N(
+implicit return:(&
+valueTripTimeLine.Models.TripEventB/-
++TripTimeLine.ViewModels.TripDetailViewModel

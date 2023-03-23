@@ -1,0 +1,27 @@
+
+@TripTimeLine.CustomControls.ActivityIndicatorPanel.TitleText.getŽ
+ƒ/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/CustomControls/ActivityIndicatorPanel.xaml.cs ("0*ì
+0 (8ª
+§
+' (8$
+%0Xamarin.Forms.BindableProperty"__id*om*k4
+2TripTimeLine.CustomControls.ActivityIndicatorPanel"3
+TitleTextPropertyXamarin.Forms.BindablePropertyÆ
+Ã
+ (9
+%1object"EXamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)*864
+2TripTimeLine.CustomControls.ActivityIndicatorPanel*(&
+$
+%0Xamarin.Forms.BindablePropertyKI
+ (D
+%2string"object.ToString()*
+
+%1object2
+ToString()"
+ (E
+
+%2string*.
+1G (G"
+F (G
+implicit returnB64
+2TripTimeLine.CustomControls.ActivityIndicatorPanel

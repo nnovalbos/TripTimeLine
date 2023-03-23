@@ -1,0 +1,43 @@
+
+yTripTimeLine.CustomControls.ActivityIndicatorPanel.TitleTextPropertyChanged(Xamarin.Forms.BindableObject, object, object)Ž
+ƒ/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/CustomControls/ActivityIndicatorPanel.xaml.cs (4"0*Å
+0 (4d
+b
+ (<"
+%0Xamarin.Forms.BindableObject"__id*,*
+(
+bindableXamarin.Forms.BindableObjecty
+w
+ (<=
+control2TripTimeLine.CustomControls.ActivityIndicatorPanel"__id*&$
+"
+%0Xamarin.Forms.BindableObject‘
+Ž
+ (
+%1Xamarin.Forms.Label"__id*a_*]
+=
+control2TripTimeLine.CustomControls.ActivityIndicatorPanel"
+titleXamarin.Forms.LabelQO
+! (4
+%2string"object.ToString()*
+
+newValueobject2
+ToString()i
+g
+ (4
+%3string"Xamarin.Forms.Label.Text.set*
+
+%1Xamarin.Forms.Label*
+
+%2string*
+1*.
+1	 (	"
+ (	
+implicit return:4
+5 (L(
+bindableXamarin.Forms.BindableObject:
+N (]
+oldValueobject:
+_ (n
+newValueobjectB6"4
+2TripTimeLine.CustomControls.ActivityIndicatorPanel

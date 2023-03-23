@@ -1,0 +1,20 @@
+
+5TripTimeLine.ViewModels.Base.BaseViewModel.IsBusy.set€
+v/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/ViewModels/Base/BaseViewModel.cs ("0*
+0 (#\
+Z
+ (>,
+*TripTimeLine.ViewModels.Base.BaseViewModel"
+isBusybool"__id*
+""š—
+ (#
+
+%0void"6Xamarin.Forms.BindableObject.OnPropertyChanged(string)*" 
+Xamarin.Forms.BindableObject*
+""2OnPropertyChanged(string)*
+1*.
+1 ("
+ (
+implicit return:
+valueboolB.,
+*TripTimeLine.ViewModels.Base.BaseViewModel

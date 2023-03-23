@@ -1,0 +1,30 @@
+
+|TripTimeLine.Converters.BooleanInverterValueConverter.Convert(object, System.Type, object, System.Globalization.CultureInfo)å
+Å/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Converters/BooleanInverterValueConverter.cs	 	("0*Q
+0 (':
+8
+ ('
+	boolValuebool"__id*
+
+valueobject*
+1
+2*!
+1 (!"
+ ("
+""*!
+2 ("
+ (
+""*.
+3	 (	"
+ (	
+implicit return:
+	 	(*
+valueobject:%
+	, 	(;
+
+targetTypeSystem.Type:
+	= 	(M
+	parameterobject:7
+	O 	(b+
+culture System.Globalization.CultureInfoB97
+5TripTimeLine.Converters.BooleanInverterValueConverter

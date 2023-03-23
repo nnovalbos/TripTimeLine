@@ -1,0 +1,8 @@
+ç
+/TripTimeLine.Repositories.RestServiceRepositoryobject6TripTimeLine.Contracts.Repositories.IGenericRepositoryj
+GetAsync<T>(string, string)KTripTimeLine.Repositories.RestServiceRepository.GetAsync<T>(string, string)j
+DeleteAsync(string, string)KTripTimeLine.Repositories.RestServiceRepository.DeleteAsync(string, string)r
+PostAsync<T>(string, T, string)OTripTimeLine.Repositories.RestServiceRepository.PostAsync<T>(string, T, string)x
+"PostAsync<T, R>(string, T, string)RTripTimeLine.Repositories.RestServiceRepository.PostAsync<T, R>(string, T, string)p
+PutAsync<T>(string, T, string)NTripTimeLine.Repositories.RestServiceRepository.PutAsync<T>(string, T, string)b
+RestServiceRepository()GTripTimeLine.Repositories.RestServiceRepository.RestServiceRepository()

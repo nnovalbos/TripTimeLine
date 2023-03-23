@@ -125,6 +125,9 @@
     <PackageReference Include="Autofac">
       <Version>5.1.2</Version>
     </PackageReference>
+    <PackageReference Include="dotnet-framework-sonarscanner">
+      <Version>5.9.2</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>

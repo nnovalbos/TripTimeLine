@@ -1,0 +1,27 @@
+
+9TripTimeLine.ViewModels.TripsViewModel.GoToDetail(object)|
+r/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/ViewModels/TripsViewModel.cs (%"0*”
+0 (VÊ
+Ç
+ (#8
+%02TripTimeLine.Contracts.Services.INavigationService"__id*{y*w,
+*TripTimeLine.ViewModels.Base.BaseViewModel"G
+navigationService2TripTimeLine.Contracts.Services.INavigationService3
+1
+I (V
+%1object"__id*
+
+objobjectýú
+ (W!
+%2System.Threading.Tasks.Task"VTripTimeLine.Contracts.Services.INavigationService.NavigateToAsync<TViewModel>(object)*<:
+8
+%02TripTimeLine.Contracts.Services.INavigationService*
+
+%1object2#NavigateToAsync<TViewModel>(object)*
+1*.
+1	 (	"
+ (	
+implicit return:
+& (0
+objobjectB*(
+&TripTimeLine.ViewModels.TripsViewModel

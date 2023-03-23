@@ -1,0 +1,68 @@
+
+;TripTimeLine.Droid.MainActivity.OnCreate(Android.OS.Bundle)w
+m/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine.Android/MainActivity.cs  (("0*¢
+0 (%"
+ 
+  (6
+%0"__id*
+""¬
+©
+ (6	
+%1int"KXamarin.Forms.Platform.Android.FormsAppCompatActivity.TabLayoutResource.set*;9"7
+5Xamarin.Forms.Platform.Android.FormsAppCompatActivity*
+
+%0"
+ 
+ (5
+%2"__id*
+""ª
+§
+ (5	
+%3int"IXamarin.Forms.Platform.Android.FormsAppCompatActivity.ToolbarResource.set*;9"7
+5Xamarin.Forms.Platform.Android.FormsAppCompatActivity*
+
+%2ÝÚ
+ (-
+
+%4void"QXamarin.Forms.Platform.Android.FormsAppCompatActivity.OnCreate(Android.OS.Bundle)*%#!
+TripTimeLine.Droid.MainActivity*+)
+'
+savedInstanceStateAndroid.OS.Bundle2OnCreate(Android.OS.Bundle)Û
+Ø
+ (F
+
+%5void"IXamarin.Essentials.Platform.Init(Android.App.Activity, Android.OS.Bundle)*!"
+Xamarin.Essentials.Platform*%#!
+TripTimeLine.Droid.MainActivity*+)
+'
+savedInstanceStateAndroid.OS.BundleÎ
+Ë
+ (F
+
+%6void"DXamarin.Forms.Forms.Init(Android.Content.Context, Android.OS.Bundle)*"
+Xamarin.Forms.Forms*%#!
+TripTimeLine.Droid.MainActivity*+)
+'
+savedInstanceStateAndroid.OS.Bundle64
+ (%
+%7TripTimeLine.App"TripTimeLine.AppL
+J
+  (#
+
+%8void"TripTimeLine.App.App()*
+
+%7TripTimeLine.AppÔ
+Ñ
+ (&
+
+%9void"`Xamarin.Forms.Platform.Android.FormsAppCompatActivity.LoadApplication(Xamarin.Forms.Application)*;97
+5Xamarin.Forms.Platform.Android.FormsAppCompatActivity*
+
+%7TripTimeLine.App*
+1*.
+1	 (	"
+ (	
+implicit return:3
+) (B'
+savedInstanceStateAndroid.OS.BundleB#!
+TripTimeLine.Droid.MainActivity

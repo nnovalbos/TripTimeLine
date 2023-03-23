@@ -1,0 +1,5 @@
+Ú
+1TripTimeLine.Converters.DateTimePlusDaysConverterobjectXamarin.Forms.IValueConverterÂ
+FConvert(object, System.Type, object, System.Globalization.CultureInfo)xTripTimeLine.Converters.DateTimePlusDaysConverter.Convert(object, System.Type, object, System.Globalization.CultureInfo)Ê
+JConvertBack(object, System.Type, object, System.Globalization.CultureInfo)|TripTimeLine.Converters.DateTimePlusDaysConverter.ConvertBack(object, System.Type, object, System.Globalization.CultureInfo)l
+DateTimePlusDaysConverter()MTripTimeLine.Converters.DateTimePlusDaysConverter.DateTimePlusDaysConverter()

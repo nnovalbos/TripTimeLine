@@ -1,0 +1,34 @@
+
+jTripTimeLine.Droid.MainActivity.OnRequestPermissionsResult(int, string[], Android.Content.PM.Permission[])w
+m/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine.Android/MainActivity.cs (7"0*å
+0 (R€
+ý
+ (j
+
+%0void"fXamarin.Essentials.Platform.OnRequestPermissionsResult(int, string[], Android.Content.PM.Permission[])*!"
+Xamarin.Essentials.Platform*
+""*
+
+permissionsstring[]*31
+/
+grantResultsAndroid.Content.PM.Permission[]ÍÊ
+ (S
+
+%1void"aAndroid.App.Activity.OnRequestPermissionsResult(int, string[]?, Android.Content.PM.Permission[]?)*%#!
+TripTimeLine.Droid.MainActivity*
+""*
+
+permissionsstring[]*31
+/
+grantResultsAndroid.Content.PM.Permission[]2LOnRequestPermissionsResult(int, string[]?, Android.Content.PM.Permission[]?)*
+1*.
+1	 (	"
+ (	
+implicit return:
+8 (G
+requestCodeint:#
+I (]
+permissionsstring[]:<
+	_ (›/
+grantResultsAndroid.Content.PM.Permission[]B#!
+TripTimeLine.Droid.MainActivity

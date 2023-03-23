@@ -1,0 +1,49 @@
+
+zTripTimeLine.Views.Templates.TripStartEndTemplate.ImageSourcePropertyChanged(Xamarin.Forms.BindableObject, object, object)ç
+Ç/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Views/Templates/TripStartEndTemplate.xaml.cs (6"0*…
+0 (SF
+D
+ (8
+%0"__id*,*
+(
+bindableXamarin.Forms.BindableObjectZ
+X
+ (8<
+control1TripTimeLine.Views.Templates.TripStartEndTemplate"__id*
+
+%0ò
+ï
+ (!
+%1Xamarin.Forms.Image"__id*hf*d
+<
+control1TripTimeLine.Views.Templates.TripStartEndTemplate"$
+tripEventIconXamarin.Forms.ImageQO
+@ (S
+%2string"object.ToString()*
+
+newValueobject2
+ToString()ç
+ä
++ (T
+%3Xamarin.Forms.ImageSource"*Xamarin.Forms.ImageSource.FromFile(string)*"
+Xamarin.Forms.ImageSource*
+
+%2stringí
+è
+ (T
+%4Xamarin.Forms.ImageSource"Xamarin.Forms.Image.Source.set*
+
+%1Xamarin.Forms.Image*#!
+
+%3Xamarin.Forms.ImageSource*
+1*.
+1 	  (	"
+   (	
+implicit return:4
+7 (N(
+bindableXamarin.Forms.BindableObject:
+P (_
+oldValueobject:
+a (p
+newValueobjectB5"3
+1TripTimeLine.Views.Templates.TripStartEndTemplate

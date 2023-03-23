@@ -1,0 +1,79 @@
+
+GTripTimeLine.Services.NavigationService.CreatePage(System.Type, object)}
+s/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Services/NavigationService.cs= =("0*ñ
+0? @( Î
+Ë
+? ?(29
+%03System.Collections.Generic.Dictionary<TKey, TValue>"__id*~|*z)
+'TripTimeLine.Services.NavigationService"M
+mappingViewModelToView3System.Collections.Generic.Dictionary<TKey, TValue>»
+¸
+? ?(A
+%1System.Type"8System.Collections.Generic.ICollection<T>.this[TKey].get*=;
+9
+%03System.Collections.Generic.Dictionary<TKey, TValue>* 
+
+viewModelTypeSystem.TypeB
+@
+? ?(A
+pageTypeSystem.Type"__id*
+
+%1System.Type†
+ƒ
+@ @( 
+
+%2bool"1System.Type.operator ==(System.Type, System.Type)*"
+System.Type*
+
+pageTypeSystem.Type*
+""*
+1
+2*»
+1@( @(]~
+|
+@6 @(_
+%3System.Type"__concat*'
+@8 @(O
+No page for view model:**
+@O @(^
+
+viewModelTypeSystem.Type64
+@( @(`
+%4System.Exception"System.Exceptiono
+m
+@, @(5
+
+%5void""System.Exception.Exception(string)*
+
+%4System.Exception*
+
+%3System.Type*
+3*¬
+2B C(}
+{
+B B(:
+%6object",System.Activator.CreateInstance(System.Type)*"
+System.Activator*
+
+pageTypeSystem.Type2
+0
+B B(B
+%7object"__id*
+
+%6object@
+>
+B B(B
+pageXamarin.Forms.Page"__id*
+
+%7object"(
+C C(
+
+pageXamarin.Forms.Page*.
+3D	 D(	"
+D D(	
+implicit return:(
+=  =(2
+viewModelTypeSystem.Type:
+=4 =(D
+	parameterobjectB+)
+'TripTimeLine.Services.NavigationService

@@ -10,6 +10,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
     <PackageReference Include="Autofac" Version="5.1.2" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="dotnet-framework-sonarscanner" Version="5.9.2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\" />

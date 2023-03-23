@@ -1,0 +1,23 @@
+
+7TripTimeLine.CustomControls.TripDetailIcon.FontSize.set…
+{/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/CustomControls/TripDetailIcon.xaml.cs ("0*‡
+0 (7¡
+ž
+  (0$
+%0Xamarin.Forms.BindableProperty"__id*fd*b,
+*TripTimeLine.CustomControls.TripDetailIcon"2
+FontSizePropertyXamarin.Forms.BindablePropertyÎ
+Ë
+ (8
+
+%1void"MXamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty, object)*0.,
+*TripTimeLine.CustomControls.TripDetailIcon*(&
+$
+%0Xamarin.Forms.BindableProperty*
+""*
+1*.
+1; (;"
+: (;
+implicit return:
+valuedoubleB.,
+*TripTimeLine.CustomControls.TripDetailIcon

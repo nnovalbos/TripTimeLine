@@ -1,0 +1,4 @@
+Ô
+"TripTimeLine.Services.TripsServiceobject-TripTimeLine.Contracts.Services.ITripsService¯
+DTripsService(TripTimeLine.Contracts.Repositories.IGenericRepository)gTripTimeLine.Services.TripsService.TripsService(TripTimeLine.Contracts.Repositories.IGenericRepository)E
+GetTrip(string)2TripTimeLine.Services.TripsService.GetTrip(string)

@@ -1,0 +1,36 @@
+
+KTripTimeLine.Repositories.RestServiceRepository.GetAsync<T>(string, string)Ö
+{/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Repositories/RestServiceRepository.cs (%"0*¯
+0 (>Ñ
+Å
+ ("!
+%0System.Threading.Tasks.Task"&System.Threading.Tasks.Task.Delay(int)*!"
+System.Threading.Tasks.Task*2–
+}
+ (C
+%1string":TripTimeLine.Common.MockDataUtils.GetJsonDataFromService()*'%"#
+!TripTimeLine.Common.MockDataUtils:
+8
+ (C
+
+jsonResultstring"__id*
+
+%1stringç
+ä
+ (?
+%2T"8Newtonsoft.Json.JsonConvert.DeserializeObject<T>(string)*!"
+Newtonsoft.Json.JsonConvert*
+
+
+jsonResultstring"
+ (@	
+
+%2T*.
+1	 (	"
+ (	
+implicit return:
+) (3
+uristring:
+5 (J
+	authTokenstringB31
+/TripTimeLine.Repositories.RestServiceRepository

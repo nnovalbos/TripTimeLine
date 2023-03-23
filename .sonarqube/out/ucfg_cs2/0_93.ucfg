@@ -1,0 +1,21 @@
+
+CTripTimeLine.ViewModels.TripDetailViewModel.TripFuelConsumption.setÅ
+w/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/ViewModels/TripDetailViewModel.cs6 6("0*®
+08 9(#w
+u
+8 8(+N-
++TripTimeLine.ViewModels.TripDetailViewModel"
+tripFuelConsumptionstring"__id*
+
+valuestringöó
+9 9(#
+
+%0void"6Xamarin.Forms.BindableObject.OnPropertyChanged(string)*" 
+Xamarin.Forms.BindableObject*
+""2OnPropertyChanged(string)*
+1*.
+1: :("
+: :(
+implicit return:
+valuestringB/-
++TripTimeLine.ViewModels.TripDetailViewModel

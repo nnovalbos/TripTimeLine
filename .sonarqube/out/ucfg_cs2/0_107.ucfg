@@ -1,0 +1,23 @@
+
+-TripTimeLine.Common.AppContainer.Resolve<T>()v
+l/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Common/AppContainer.cs$ $("0*Ä
+0& &(*x
+v
+& &(
+%0Autofac.IContainer"__id*JH*F"
+ TripTimeLine.Common.AppContainer" 
+
+_containerAutofac.IContainer£
+ 
+& &(*
+%1T"IAutofac.ResolutionExtensions.Resolve<TService>(Autofac.IComponentContext)*" "
+Autofac.ResolutionExtensions*
+
+%0Autofac.IContainer"
+& &(+	
+
+%1T*.
+1'	 '(	"
+' '(	
+implicit returnB$""
+ TripTimeLine.Common.AppContainer

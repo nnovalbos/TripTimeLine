@@ -1,0 +1,38 @@
+
+RTripTimeLine.CustomControls.ActivityIndicatorPanel.ActivityIndicatorPanel()!staticŽ
+ƒ/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/CustomControls/ActivityIndicatorPanel.xaml.cs (/"0*›
+0 (A
+?
+G (S
+%0string"__id**
+string"
+Emptystring"
+ 
+M (`
+%1"__id*
+""Ö
+Ó
+D (c$
+%2Xamarin.Forms.BindableProperty"ŽXamarin.Forms.BindableProperty.Create(string, System.Type, System.Type, object, Xamarin.Forms.BindingMode, Xamarin.Forms.BindableProperty.ValidateValueDelegate, Xamarin.Forms.BindableProperty.BindingPropertyChangedDelegate, Xamarin.Forms.BindableProperty.BindingPropertyChangingDelegate, Xamarin.Forms.BindableProperty.CoerceValueDelegate, Xamarin.Forms.BindableProperty.CreateDefaultValueDelegate)*$"" 
+Xamarin.Forms.BindableProperty*
+""*
+""*
+""*
+
+%0string*
+
+%1*
+""*
+""*
+""*
+""*
+""ª
+§
+0 (ck4
+2TripTimeLine.CustomControls.ActivityIndicatorPanel"3
+TitleTextPropertyXamarin.Forms.BindableProperty"__id*(&
+$
+%2Xamarin.Forms.BindableProperty"
+ (
+implicit returnB6"4
+2TripTimeLine.CustomControls.ActivityIndicatorPanel

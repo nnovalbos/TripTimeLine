@@ -1,0 +1,5 @@
+ó
+5TripTimeLine.Converters.BooleanInverterValueConverterobjectXamarin.Forms.IValueConverterÆ
+FConvert(object, System.Type, object, System.Globalization.CultureInfo)|TripTimeLine.Converters.BooleanInverterValueConverter.Convert(object, System.Type, object, System.Globalization.CultureInfo)Ï
+JConvertBack(object, System.Type, object, System.Globalization.CultureInfo)€TripTimeLine.Converters.BooleanInverterValueConverter.ConvertBack(object, System.Type, object, System.Globalization.CultureInfo)x
+BooleanInverterValueConverter()UTripTimeLine.Converters.BooleanInverterValueConverter.BooleanInverterValueConverter()

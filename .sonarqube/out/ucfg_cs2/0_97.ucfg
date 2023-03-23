@@ -1,0 +1,20 @@
+
+KTripTimeLine.Services.NavigationService.NavigateToAsync<TViewModel>(object)}
+s/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Services/NavigationService.cs   (#"0*—
+0" "(FÖ
+Ó
+" "(G!
+%0System.Threading.Tasks.Task"RTripTimeLine.Services.NavigationService.CustomNavigateToAsync(System.Type, object)*-+)
+'TripTimeLine.Services.NavigationService*
+""*
+
+	parameterobject"/
+" "(H#
+!
+%0System.Threading.Tasks.Task*.
+1#	 #(	"
+# #(	
+implicit return:
+ 0  (@
+	parameterobjectB+)
+'TripTimeLine.Services.NavigationService

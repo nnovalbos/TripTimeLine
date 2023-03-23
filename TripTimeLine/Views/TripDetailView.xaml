@@ -14,7 +14,7 @@
 
     <ContentPage.Content>
 
-        <AbsoluteLayout>
+        <AbsoluteLayout VerticalOptions="FillAndExpand" >
 
             <StackLayout IsVisible="{Binding IsBusy, Converter={StaticResource BooleanInverterConverter}}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Spacing="0">
                 <Image x:Name="map" Source="map.gif" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
@@ -27,7 +27,7 @@
 
             </StackLayout>
 
-            <CollectionView VerticalOptions="FillAndExpand"
+            <CollectionView VerticalOptions="FillAndExpand" AbsoluteLayout.LayoutBounds="1, 1, 1, 1" AbsoluteLayout.LayoutFlags="SizeProportional" 
                       IsVisible="{Binding IsBusy, Converter={StaticResource BooleanInverterConverter}}"
                       IsGrouped="True"
                       SelectionMode="None"

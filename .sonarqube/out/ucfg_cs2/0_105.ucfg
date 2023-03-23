@@ -1,0 +1,23 @@
+
+OTripTimeLine.Repositories.RestServiceRepository.PostAsync<T>(string, T, string)…
+{/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Repositories/RestServiceRepository.cs ( "0*Ú
+0 (-NL
+ (-"
+%0System.NotSupportedException"System.NotSupportedExceptionv
+t
+ (+
+
+%1void"4System.NotSupportedException.NotSupportedException()*&$
+"
+%0System.NotSupportedException*
+1*.
+1	 (	"
+ (	
+implicit return:
+$ (.
+uristring:
+0 (6	
+dataT:
+8 (M
+	authTokenstringB31
+/TripTimeLine.Repositories.RestServiceRepository

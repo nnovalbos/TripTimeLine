@@ -1,0 +1,44 @@
+
+\TripTimeLine.iOS.AppDelegate.FinishedLaunching(UIKit.UIApplication, Foundation.NSDictionary)r
+h/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine.iOS/AppDelegate.cs (."0*è
+0 (6O
+M
+ (.
+
+%0void"Xamarin.Forms.Forms.Init()*"
+Xamarin.Forms.Forms64
+ (%
+%1TripTimeLine.App"TripTimeLine.AppL
+J
+  (#
+
+%2void"TripTimeLine.App.App()*
+
+%1TripTimeLine.App–
+Õ
+ (&
+
+%3void"^Xamarin.Forms.Platform.iOS.FormsApplicationDelegate.LoadApplication(Xamarin.Forms.Application)*975
+3Xamarin.Forms.Platform.iOS.FormsApplicationDelegate*
+
+%1TripTimeLine.Appª∏
+ (7
+
+%4bool"sXamarin.Forms.Platform.iOS.FormsApplicationDelegate.FinishedLaunching(UIKit.UIApplication, Foundation.NSDictionary)*" 
+TripTimeLine.iOS.AppDelegate*
+
+appUIKit.UIApplication*&$
+"
+optionsFoundation.NSDictionary2?FinishedLaunching(UIKit.UIApplication, Foundation.NSDictionary)"
+ (8
+
+
+%4bool*.
+1	 (	"
+ (	
+implicit return:&
+/ (@
+appUIKit.UIApplication:.
+B (V"
+optionsFoundation.NSDictionaryB 
+TripTimeLine.iOS.AppDelegate

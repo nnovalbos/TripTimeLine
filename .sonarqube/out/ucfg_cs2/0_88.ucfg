@@ -1,0 +1,30 @@
+
+;TripTimeLine.Services.NavigationService.NavigationService()}
+s/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Services/NavigationService.cs ( "1*
+1	 (	*
+0*Ç
+0 (|z
+% (A9
+%03System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>ö
+ó
+) (?
+
+%1void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*=;
+9
+%03System.Collections.Generic.Dictionary<TKey, TValue>Œ
+À
+ (Az)
+'TripTimeLine.Services.NavigationService"M
+mappingViewModelToView3System.Collections.Generic.Dictionary<TKey, TValue>"__id*=;
+9
+%03System.Collections.Generic.Dictionary<TKey, TValue>Å
+
+ (
+
+%2void"8TripTimeLine.Services.NavigationService.CreateMappings()*-+)
+'TripTimeLine.Services.NavigationService*
+2*.
+2	 (	"
+ (	
+implicit returnB+)
+'TripTimeLine.Services.NavigationService

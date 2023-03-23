@@ -1,0 +1,30 @@
+
+WTripTimeLine.Common.ViewModelLocator.GetAutoWireViewModel(Xamarin.Forms.BindableObject)z
+p/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Common/ViewModelLocator.cs (/"0*±
+0 (D¤
+¡
++ (D$
+%0Xamarin.Forms.BindableProperty"__id*ig*e&
+$TripTimeLine.Common.ViewModelLocator";
+AutoWireViewModelPropertyXamarin.Forms.BindablePropertyº
+·
+ (E
+%1object"EXamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)*,*
+(
+bindableXamarin.Forms.BindableObject*(&
+$
+%0Xamarin.Forms.BindableProperty*
+(
+ (E
+%2"__id*
+
+%1object"
+ (F
+
+%2*.
+1	 (	"
+ (	
+implicit return:4
+0 (G(
+bindableXamarin.Forms.BindableObjectB("&
+$TripTimeLine.Common.ViewModelLocator

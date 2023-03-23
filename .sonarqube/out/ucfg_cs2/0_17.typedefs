@@ -1,0 +1,10 @@
+â
+*TripTimeLine.CustomControls.TripDetailIconXamarin.Forms.ContentViewXamarin.Forms.TemplatedViewXamarin.Forms.LayoutXamarin.Forms.ViewXamarin.Forms.VisualElementXamarin.Forms.NavigableElementXamarin.Forms.ElementXamarin.Forms.BindableObjectobjectO
+TripDetailIcon();TripTimeLine.CustomControls.TripDetailIcon.TripDetailIcon()Y
+InitializeComponent()@TripTimeLine.CustomControls.TripDetailIcon.InitializeComponent()I
+TitleText.get8TripTimeLine.CustomControls.TripDetailIcon.TitleText.getI
+TitleText.set8TripTimeLine.CustomControls.TripDetailIcon.TitleText.setG
+FontSize.get7TripTimeLine.CustomControls.TripDetailIcon.FontSize.getG
+FontSize.set7TripTimeLine.CustomControls.TripDetailIcon.FontSize.setA
+	Image.get4TripTimeLine.CustomControls.TripDetailIcon.Image.getA
+	Image.set4TripTimeLine.CustomControls.TripDetailIcon.Image.set

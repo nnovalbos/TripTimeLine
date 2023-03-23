@@ -1,0 +1,530 @@
+
+8TripTimeLine.Common.MockDataUtils.MockDataUtils()!staticw
+m/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Common/MockDataUtils.cs
+ 
+(%"0*˙`
+0U U(FD
+* M(	
+%0TripTimeLine.Models.Trip"TripTimeLine.Models.Trip]
+[
+. (2
+
+%1void"TripTimeLine.Models.Trip.Trip()*" 
+
+%0TripTimeLine.Models.Tripj
+h
+ (	
+%2int"%TripTimeLine.Models.Trip.Duration.set*" 
+
+%0TripTimeLine.Models.Trip*2p
+n
+ (
+%3double"'TripTimeLine.Models.Trip.Kilometers.set*" 
+
+%0TripTimeLine.Models.Trip*2¨t
+r
+ ( 
+%4double",TripTimeLine.Models.Trip.FuelConsumption.set*" 
+
+%0TripTimeLine.Models.Trip*22Ñ
+Å
+ (/
+%5double"9TripTimeLine.Models.Trip.FuelConsumptionLitersPerHour.set*" 
+
+%0TripTimeLine.Models.Trip*
+""PN
+ (#
+%6TripTimeLine.Models.TripEvent"TripTimeLine.Models.TripEventl
+j
+ (%
+
+%7void")TripTimeLine.Models.TripEvent.TripEvent()*'%
+#
+%6TripTimeLine.Models.TripEventS
+Q
+ (#
+%8System.DateTime"System.DateTime.Now.get*"
+System.DateTimeê
+ç
+ (#
+%9System.DateTime"&TripTimeLine.Models.TripEvent.Date.set*'%
+#
+%6TripTimeLine.Models.TripEvent*
+
+%8System.DateTime
+}
+ ($
+%10string"&TripTimeLine.Models.TripEvent.Name.set*'%
+#
+%6TripTimeLine.Models.TripEvent*
+STARTTEST-3®
+•
+ ($
+%11TripTimeLine.Models.TripEvent"&TripTimeLine.Models.Trip.StartTrip.set*" 
+
+%0TripTimeLine.Models.Trip*'%
+#
+%6TripTimeLine.Models.TripEventQO
+ ($
+%12TripTimeLine.Models.TripEvent"TripTimeLine.Models.TripEventn
+l
+ (#
+%13void")TripTimeLine.Models.TripEvent.TripEvent()*(&
+$
+%12TripTimeLine.Models.TripEventT
+R
+ (#
+%14System.DateTime"System.DateTime.Now.get*"
+System.DateTimee
+c
+& (:
+%15System.TimeSpan" System.TimeSpan.FromDays(double)*"
+System.TimeSpan*2≤
+Ø
+ (:
+%16System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%14System.DateTime*
+
+%15System.TimeSpanì
+ê
+ (:
+%17System.DateTime"&TripTimeLine.Models.TripEvent.Date.set*(&
+$
+%12TripTimeLine.Models.TripEvent*
+
+%16System.DateTime~
+|
+ ("
+%18string"&TripTimeLine.Models.TripEvent.Name.set*(&
+$
+%12TripTimeLine.Models.TripEvent*
+	ENDTEST-3ß
+§
+ ($
+%19TripTimeLine.Models.TripEvent"$TripTimeLine.Models.Trip.EndTrip.set*" 
+
+%0TripTimeLine.Models.Trip*(&
+$
+%12TripTimeLine.Models.TripEventÑÅ
+ L(=
+%206System.Collections.ObjectModel.ObservableCollection<T>"6System.Collections.ObjectModel.ObservableCollection<T>¨
+©
+ (<
+%21void"MSystem.Collections.ObjectModel.ObservableCollection<T>.ObservableCollection()*A?
+=
+%206System.Collections.ObjectModel.ObservableCollection<T>QO
+ #($
+%22TripTimeLine.Models.TripEvent"TripTimeLine.Models.TripEventn
+l
+ (!
+%23void")TripTimeLine.Models.TripEvent.TripEvent()*(&
+$
+%22TripTimeLine.Models.TripEventT
+R
+! !(+
+%24System.DateTime"System.DateTime.Now.get*"
+System.DateTimef
+d
+!. !(C
+%25System.TimeSpan"!System.TimeSpan.FromHours(double)*"
+System.TimeSpan*2≤
+Ø
+! !(C
+%26System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%24System.DateTime*
+
+%25System.TimeSpanì
+ê
+! !(C
+%27System.DateTime"&TripTimeLine.Models.TripEvent.Date.set*(&
+$
+%22TripTimeLine.Models.TripEvent*
+
+%26System.DateTimeÄ
+~
+" "(,
+%28string"&TripTimeLine.Models.TripEvent.Name.set*(&
+$
+%22TripTimeLine.Models.TripEvent*
+Event-3-0-0QO
+$ (($
+%29TripTimeLine.Models.TripEvent"TripTimeLine.Models.TripEventn
+l
+$ $(!
+%30void")TripTimeLine.Models.TripEvent.TripEvent()*(&
+$
+%29TripTimeLine.Models.TripEventT
+R
+& &(+
+%31System.DateTime"System.DateTime.Now.get*"
+System.DateTimef
+d
+&. &(C
+%32System.TimeSpan"!System.TimeSpan.FromHours(double)*"
+System.TimeSpan*2≤
+Ø
+& &(C
+%33System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%31System.DateTime*
+
+%32System.TimeSpanì
+ê
+& &(C
+%34System.DateTime"&TripTimeLine.Models.TripEvent.Date.set*(&
+$
+%29TripTimeLine.Models.TripEvent*
+
+%33System.DateTimeÄ
+~
+' '(,
+%35string"&TripTimeLine.Models.TripEvent.Name.set*(&
+$
+%29TripTimeLine.Models.TripEvent*
+Event-3-0-1QO
+) -($
+%36TripTimeLine.Models.TripEvent"TripTimeLine.Models.TripEventn
+l
+) )(!
+%37void")TripTimeLine.Models.TripEvent.TripEvent()*(&
+$
+%36TripTimeLine.Models.TripEventT
+R
++ +(+
+%38System.DateTime"System.DateTime.Now.get*"
+System.DateTimef
+d
++. +(C
+%39System.TimeSpan"!System.TimeSpan.FromHours(double)*"
+System.TimeSpan*2≤
+Ø
++ +(C
+%40System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%38System.DateTime*
+
+%39System.TimeSpanì
+ê
++ +(C
+%41System.DateTime"&TripTimeLine.Models.TripEvent.Date.set*(&
+$
+%36TripTimeLine.Models.TripEvent*
+
+%40System.DateTimeÄ
+~
+, ,(,
+%42string"&TripTimeLine.Models.TripEvent.Name.set*(&
+$
+%36TripTimeLine.Models.TripEvent*
+Event-3-0-2QO
+. 2($
+%43TripTimeLine.Models.TripEvent"TripTimeLine.Models.TripEventn
+l
+. .(#
+%44void")TripTimeLine.Models.TripEvent.TripEvent()*(&
+$
+%43TripTimeLine.Models.TripEventT
+R
+0 0(+
+%45System.DateTime"System.DateTime.Now.get*"
+System.DateTimee
+c
+0. 0(B
+%46System.TimeSpan" System.TimeSpan.FromDays(double)*"
+System.TimeSpan*2≤
+Ø
+0 0(B
+%47System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%45System.DateTime*
+
+%46System.TimeSpanf
+d
+0F 0([
+%48System.TimeSpan"!System.TimeSpan.FromHours(double)*"
+System.TimeSpan*2≤
+Ø
+0 0([
+%49System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%47System.DateTime*
+
+%48System.TimeSpanì
+ê
+0 0([
+%50System.DateTime"&TripTimeLine.Models.TripEvent.Date.set*(&
+$
+%43TripTimeLine.Models.TripEvent*
+
+%49System.DateTimeÄ
+~
+1 1(,
+%51string"&TripTimeLine.Models.TripEvent.Name.set*(&
+$
+%43TripTimeLine.Models.TripEvent*
+Event-3-1-0QO
+3 7($
+%52TripTimeLine.Models.TripEvent"TripTimeLine.Models.TripEventn
+l
+3 3(!
+%53void")TripTimeLine.Models.TripEvent.TripEvent()*(&
+$
+%52TripTimeLine.Models.TripEventT
+R
+5 5(+
+%54System.DateTime"System.DateTime.Now.get*"
+System.DateTimee
+c
+5. 5(B
+%55System.TimeSpan" System.TimeSpan.FromDays(double)*"
+System.TimeSpan*2≤
+Ø
+5 5(B
+%56System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%54System.DateTime*
+
+%55System.TimeSpanf
+d
+5E 5(Z
+%57System.TimeSpan"!System.TimeSpan.FromHours(double)*"
+System.TimeSpan*2≤
+Ø
+5 5(Z
+%58System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%56System.DateTime*
+
+%57System.TimeSpanì
+ê
+5 5(Z
+%59System.DateTime"&TripTimeLine.Models.TripEvent.Date.set*(&
+$
+%52TripTimeLine.Models.TripEvent*
+
+%58System.DateTimeÄ
+~
+6 6(,
+%60string"&TripTimeLine.Models.TripEvent.Name.set*(&
+$
+%52TripTimeLine.Models.TripEvent*
+Event-3-1-1QO
+8 <($
+%61TripTimeLine.Models.TripEvent"TripTimeLine.Models.TripEventn
+l
+8 8(!
+%62void")TripTimeLine.Models.TripEvent.TripEvent()*(&
+$
+%61TripTimeLine.Models.TripEventT
+R
+: :(+
+%63System.DateTime"System.DateTime.Now.get*"
+System.DateTimee
+c
+:. :(B
+%64System.TimeSpan" System.TimeSpan.FromDays(double)*"
+System.TimeSpan*2≤
+Ø
+: :(B
+%65System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%63System.DateTime*
+
+%64System.TimeSpanf
+d
+:E :(Z
+%66System.TimeSpan"!System.TimeSpan.FromHours(double)*"
+System.TimeSpan*2≤
+Ø
+: :(Z
+%67System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%65System.DateTime*
+
+%66System.TimeSpanì
+ê
+: :(Z
+%68System.DateTime"&TripTimeLine.Models.TripEvent.Date.set*(&
+$
+%61TripTimeLine.Models.TripEvent*
+
+%67System.DateTimeÄ
+~
+; ;(,
+%69string"&TripTimeLine.Models.TripEvent.Name.set*(&
+$
+%61TripTimeLine.Models.TripEvent*
+Event-3-1-2QO
+= A($
+%70TripTimeLine.Models.TripEvent"TripTimeLine.Models.TripEventn
+l
+= =(#
+%71void")TripTimeLine.Models.TripEvent.TripEvent()*(&
+$
+%70TripTimeLine.Models.TripEventT
+R
+? ?(+
+%72System.DateTime"System.DateTime.Now.get*"
+System.DateTimee
+c
+?. ?(B
+%73System.TimeSpan" System.TimeSpan.FromDays(double)*"
+System.TimeSpan*2≤
+Ø
+? ?(B
+%74System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%72System.DateTime*
+
+%73System.TimeSpanf
+d
+?F ?([
+%75System.TimeSpan"!System.TimeSpan.FromHours(double)*"
+System.TimeSpan*2≤
+Ø
+? ?([
+%76System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%74System.DateTime*
+
+%75System.TimeSpanì
+ê
+? ?([
+%77System.DateTime"&TripTimeLine.Models.TripEvent.Date.set*(&
+$
+%70TripTimeLine.Models.TripEvent*
+
+%76System.DateTimeÄ
+~
+@ @(,
+%78string"&TripTimeLine.Models.TripEvent.Name.set*(&
+$
+%70TripTimeLine.Models.TripEvent*
+Event-3-2-0QO
+B F($
+%79TripTimeLine.Models.TripEvent"TripTimeLine.Models.TripEventn
+l
+B B(!
+%80void")TripTimeLine.Models.TripEvent.TripEvent()*(&
+$
+%79TripTimeLine.Models.TripEventT
+R
+D D(+
+%81System.DateTime"System.DateTime.Now.get*"
+System.DateTimee
+c
+D. D(B
+%82System.TimeSpan" System.TimeSpan.FromDays(double)*"
+System.TimeSpan*2≤
+Ø
+D D(B
+%83System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%81System.DateTime*
+
+%82System.TimeSpanf
+d
+DE D(Z
+%84System.TimeSpan"!System.TimeSpan.FromHours(double)*"
+System.TimeSpan*2≤
+Ø
+D D(Z
+%85System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%83System.DateTime*
+
+%84System.TimeSpanì
+ê
+D D(Z
+%86System.DateTime"&TripTimeLine.Models.TripEvent.Date.set*(&
+$
+%79TripTimeLine.Models.TripEvent*
+
+%85System.DateTimeÄ
+~
+E E(,
+%87string"&TripTimeLine.Models.TripEvent.Name.set*(&
+$
+%79TripTimeLine.Models.TripEvent*
+Event-3-2-1QO
+G K($
+%88TripTimeLine.Models.TripEvent"TripTimeLine.Models.TripEventn
+l
+G G(!
+%89void")TripTimeLine.Models.TripEvent.TripEvent()*(&
+$
+%88TripTimeLine.Models.TripEventT
+R
+I I(+
+%90System.DateTime"System.DateTime.Now.get*"
+System.DateTimee
+c
+I. I(B
+%91System.TimeSpan" System.TimeSpan.FromDays(double)*"
+System.TimeSpan*2≤
+Ø
+I I(B
+%92System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%90System.DateTime*
+
+%91System.TimeSpanf
+d
+IE I(Z
+%93System.TimeSpan"!System.TimeSpan.FromHours(double)*"
+System.TimeSpan*2≤
+Ø
+I I(Z
+%94System.DateTime"<System.DateTime.operator +(System.DateTime, System.TimeSpan)*"
+System.DateTime*
+
+%92System.DateTime*
+
+%93System.TimeSpanì
+ê
+I I(Z
+%95System.DateTime"&TripTimeLine.Models.TripEvent.Date.set*(&
+$
+%88TripTimeLine.Models.TripEvent*
+
+%94System.DateTimeÄ
+~
+J J(,
+%96string"&TripTimeLine.Models.TripEvent.Name.set*(&
+$
+%88TripTimeLine.Models.TripEvent*
+Event-3-2-2œ
+Ã
+ L(0
+%97)System.Collections.Generic.IEnumerable<T>"'TripTimeLine.Models.Trip.TripEvents.set*" 
+
+%0TripTimeLine.Models.Trip*A?
+=
+%206System.Collections.ObjectModel.ObservableCollection<T>á
+Ñ
+ M(	N#
+!TripTimeLine.Common.MockDataUtils"'
+mockDataObjTripTimeLine.Models.Trip"__id*" 
+
+%0TripTimeLine.Models.Trip"
+
+ U(
+implicit returnB%"#
+!TripTimeLine.Common.MockDataUtils

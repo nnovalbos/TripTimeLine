@@ -1,0 +1,153 @@
+
+mTripTimeLine.Common.ViewModelLocator.OnAutoWireViewModelChanged(Xamarin.Forms.BindableObject, object, object)z
+p/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Common/ViewModelLocator.cs (6"0*v
+0 (*_
+]
+ (*
+viewXamarin.Forms.Element"__id*,*
+(
+bindableXamarin.Forms.BindableObject*
+1
+2*!
+10	 0(	"
+ (
+""*Í
+2  !()T
+R
+   ()
+%0System.Type"object.GetType()*!
+
+viewXamarin.Forms.ElementB
+@
+   ()
+viewTypeSystem.Type"__id*
+
+%0System.TypeQ
+O
+! !(!
+%1string"System.Type.FullName.get*
+
+viewTypeSystem.Typef
+d
+! !()
+
+%2bool""string.operator !=(string, string)*
+"
+string*
+
+%1string*
+""*
+3
+4*Ñ
+3# (()Q
+O
+# #(0
+%3string"System.Type.FullName.get*
+
+viewTypeSystem.Typeo
+m
+# #(S
+%4string"string.Replace(string, string)*
+
+%3string*	
+.Views.*
+.ViewModels.8
+6
+# #(S
+viewNamestring"__id*
+
+%4string¡
+æ
+$' $(= 
+%5System.Reflection.TypeInfo"BSystem.Reflection.IntrospectionExtensions.GetTypeInfo(System.Type)*/-"+
+)System.Reflection.IntrospectionExtensions*
+
+viewTypeSystem.Typen
+l
+$' $(F 
+%6System.Reflection.Assembly"System.Type.Assembly.get*$"
+ 
+%5System.Reflection.TypeInfowu
+$' $(O
+%7string"'System.Reflection.Assembly.FullName.get*$"
+ 
+%6System.Reflection.Assembly2FullName.get@
+>
+$ $(O
+viewAssemblyNamestring"__id*
+
+%7stringî
+ë
+%2 %(N&
+%8 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*&$""
+ System.Globalization.CultureInfo·
+ﬁ
+%$ %(|
+%9string"=string.Format(System.IFormatProvider, string, object, object)*
+"
+string**(
+&
+%8 System.Globalization.CultureInfo*
+{0}Model, {1}*
+
+viewNamestring*
+
+viewAssemblyNamestring=
+;
+% %(|
+viewModelNamestring"__id*
+
+%9stringm
+k
+'$ '(?
+%10System.Type"System.Type.GetType(string)*"
+System.Type*
+
+viewModelNamestringH
+F
+' '(?
+viewModelTypeSystem.Type"__id*
+
+%10System.Typeå
+â
+( (()
+%11bool"1System.Type.operator ==(System.Type, System.Type)*"
+System.Type* 
+
+viewModelTypeSystem.Type*
+""*
+5
+6*!
+50	 0(	"
+* *(
+""*˙
+6- .(/ù
+ö
+-  -(C
+%12object"5TripTimeLine.Common.AppContainer.Resolve(System.Type)*&$""
+ TripTimeLine.Common.AppContainer* 
+
+viewModelTypeSystem.Type:
+8
+- -(C
+	viewModelobject"__id*
+
+%12objectâ
+Ü
+. .(/
+%13object"/Xamarin.Forms.BindableObject.BindingContext.set*!
+
+viewXamarin.Forms.Element*
+
+	viewModelobject*
+4*.
+40	 0(	"
+0 0(	
+implicit return:4
+7 (N(
+bindableXamarin.Forms.BindableObject:
+P (_
+oldValueobject:
+a (p
+newValueobjectB("&
+$TripTimeLine.Common.ViewModelLocator

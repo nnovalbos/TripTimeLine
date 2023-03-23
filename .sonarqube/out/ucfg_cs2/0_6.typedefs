@@ -1,0 +1,8 @@
+É
+TripTimeLine.AppXamarin.Forms.ApplicationXamarin.Forms.ElementXamarin.Forms.BindableObjectobject
+App()TripTimeLine.App.App()'
+	OnStart()TripTimeLine.App.OnStart()'
+	OnSleep()TripTimeLine.App.OnSleep())
+
+OnResume()TripTimeLine.App.OnResume()?
+InitializeComponent()&TripTimeLine.App.InitializeComponent()

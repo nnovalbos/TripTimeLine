@@ -1,0 +1,24 @@
+
+8TripTimeLine.CustomControls.TripDetailIcon.TitleText.set…
+{/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/CustomControls/TripDetailIcon.xaml.cs ("0*“
+0 (8¢
+Ÿ
+  (1$
+%0Xamarin.Forms.BindableProperty"__id*ge*c,
+*TripTimeLine.CustomControls.TripDetailIcon"3
+TitleTextPropertyXamarin.Forms.BindablePropertyÙ
+Ö
+ (9
+
+%1void"MXamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty, object)*0.,
+*TripTimeLine.CustomControls.TripDetailIcon*(&
+$
+%0Xamarin.Forms.BindableProperty*
+
+valuestring*
+1*.
+1< (<"
+; (<
+implicit return:
+valuestringB.,
+*TripTimeLine.CustomControls.TripDetailIcon

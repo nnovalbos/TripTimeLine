@@ -1,0 +1,18 @@
+
+<TripTimeLine.ViewModels.TripsViewModel.GoToDetailCommand.get|
+r/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/ViewModels/TripsViewModel.cs ()"0*Ï
+0- (]@>
+- (^
+%0Xamarin.Forms.Command"Xamarin.Forms.Commandy
+w
+1 (8
+
+%1void"4Xamarin.Forms.Command.Command(System.Action<object>)*
+
+%0Xamarin.Forms.Command*
+""*
+1*.
+1_ (_"
+^ (_
+implicit returnB*(
+&TripTimeLine.ViewModels.TripsViewModel

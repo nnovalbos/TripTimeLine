@@ -1,0 +1,18 @@
+Œ
+TripTimeLine.Models.Tripobject?
+CreateGroupList()*TripTimeLine.Models.Trip.CreateGroupList())
+Trip()TripTimeLine.Models.Trip.Trip()5
+Duration.get%TripTimeLine.Models.Trip.Duration.get5
+Duration.set%TripTimeLine.Models.Trip.Duration.set9
+Kilometers.get'TripTimeLine.Models.Trip.Kilometers.get9
+Kilometers.set'TripTimeLine.Models.Trip.Kilometers.setC
+FuelConsumption.get,TripTimeLine.Models.Trip.FuelConsumption.getC
+FuelConsumption.set,TripTimeLine.Models.Trip.FuelConsumption.set]
+ FuelConsumptionLitersPerHour.get9TripTimeLine.Models.Trip.FuelConsumptionLitersPerHour.get]
+ FuelConsumptionLitersPerHour.set9TripTimeLine.Models.Trip.FuelConsumptionLitersPerHour.set7
+StartTrip.get&TripTimeLine.Models.Trip.StartTrip.get7
+StartTrip.set&TripTimeLine.Models.Trip.StartTrip.set3
+EndTrip.get$TripTimeLine.Models.Trip.EndTrip.get3
+EndTrip.set$TripTimeLine.Models.Trip.EndTrip.set9
+TripEvents.get'TripTimeLine.Models.Trip.TripEvents.get9
+TripEvents.set'TripTimeLine.Models.Trip.TripEvents.set

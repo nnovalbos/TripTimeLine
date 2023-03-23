@@ -1,0 +1,26 @@
+
+2TripTimeLine.Views.NavigationView.NavigationView()|
+r/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Views/NavigationView.xaml.cs ("1*u
+1
+	 
+(	a
+_
+
+%0void"-Xamarin.Forms.NavigationPage.NavigationPage()*" 
+Xamarin.Forms.NavigationPage*
+0*Ž
+0	 	(!z
+x
+	 	(!
+
+%1void"7TripTimeLine.Views.NavigationView.InitializeComponent()*'%#
+!TripTimeLine.Views.NavigationView*
+2*.
+2
+	 
+(	"
+
+ 
+(	
+implicit returnB%#
+!TripTimeLine.Views.NavigationView

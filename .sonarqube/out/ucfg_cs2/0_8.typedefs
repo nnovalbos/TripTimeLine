@@ -1,0 +1,9 @@
+á
+ TripTimeLine.Models.GroupList<T>6System.Collections.ObjectModel.ObservableCollection<T>,System.Collections.ObjectModel.Collection<T>object;
+GroupList(),TripTimeLine.Models.GroupList<T>.GroupList()D
+Heading.get5System.Collections.Generic.ICollection<T>.Heading.getD
+Heading.set5System.Collections.Generic.ICollection<T>.Heading.setB
+
+Events.get4System.Collections.Generic.ICollection<T>.Events.getB
+
+Events.set4System.Collections.Generic.ICollection<T>.Events.set

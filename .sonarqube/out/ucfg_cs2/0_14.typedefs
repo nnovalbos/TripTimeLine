@@ -1,0 +1,9 @@
+¢
+'TripTimeLine.Services.NavigationServiceobject2TripTimeLine.Contracts.Services.INavigationServiceR
+NavigationService();TripTimeLine.Services.NavigationService.NavigationService()N
+InitializeAsync()9TripTimeLine.Services.NavigationService.InitializeAsync()f
+NavigateToAsync<TViewModel>()ETripTimeLine.Services.NavigationService.NavigateToAsync<TViewModel>()r
+#NavigateToAsync<TViewModel>(object)KTripTimeLine.Services.NavigationService.NavigateToAsync<TViewModel>(object)€
+*CustomNavigateToAsync(System.Type, object)RTripTimeLine.Services.NavigationService.CustomNavigateToAsync(System.Type, object)j
+CreatePage(System.Type, object)GTripTimeLine.Services.NavigationService.CreatePage(System.Type, object)L
+CreateMappings()8TripTimeLine.Services.NavigationService.CreateMappings()

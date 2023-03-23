@@ -1,0 +1,8 @@
+ï
+*TripTimeLine.ViewModels.Base.BaseViewModelXamarin.Forms.BindableObjectobject±
+ABaseViewModel(TripTimeLine.Contracts.Services.INavigationService)lTripTimeLine.ViewModels.Base.BaseViewModel.BaseViewModel(TripTimeLine.Contracts.Services.INavigationService)]
+InitializeAsync(object)BTripTimeLine.ViewModels.Base.BaseViewModel.InitializeAsync(object)C
+
+IsBusy.get5TripTimeLine.ViewModels.Base.BaseViewModel.IsBusy.getC
+
+IsBusy.set5TripTimeLine.ViewModels.Base.BaseViewModel.IsBusy.set

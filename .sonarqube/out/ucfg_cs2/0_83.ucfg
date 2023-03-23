@@ -1,0 +1,34 @@
+
+¢TripTimeLine.ViewModels.TripDetailViewModel.TripDetailViewModel(TripTimeLine.Contracts.Services.ITripsService, TripTimeLine.Contracts.Services.INavigationService)Å
+w/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/ViewModels/TripDetailViewModel.cs (""1*
+1	 (	*
+0*Ù
+0e (Ü
+É
+e (~
+
+%0void"lTripTimeLine.ViewModels.Base.BaseViewModel.BaseViewModel(TripTimeLine.Contracts.Services.INavigationService)*0.,
+*TripTimeLine.ViewModels.Base.BaseViewModel*KI
+G
+navigationService2TripTimeLine.Contracts.Services.INavigationService∆
+√
+ (,n-
++TripTimeLine.ViewModels.TripDetailViewModel"=
+tripsService-TripTimeLine.Contracts.Services.ITripsService"__id*A?
+=
+tripsService-TripTimeLine.Contracts.Services.ITripsServiceç
+ä
+ (
+
+%1bool"5TripTimeLine.ViewModels.Base.BaseViewModel.IsBusy.set*1/-
++TripTimeLine.ViewModels.TripDetailViewModel*
+""*
+2*.
+2	 (	"
+ (	
+implicit return:I
+# (==
+tripsService-TripTimeLine.Contracts.Services.ITripsService:S
+? (cG
+navigationService2TripTimeLine.Contracts.Services.INavigationServiceB/-
++TripTimeLine.ViewModels.TripDetailViewModel

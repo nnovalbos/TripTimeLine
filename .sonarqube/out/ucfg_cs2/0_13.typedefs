@@ -1,0 +1,6 @@
+«
+&TripTimeLine.ViewModels.TripsViewModel*TripTimeLine.ViewModels.Base.BaseViewModelXamarin.Forms.BindableObjectobject¯
+BTripsViewModel(TripTimeLine.Contracts.Services.INavigationService)iTripTimeLine.ViewModels.TripsViewModel.TripsViewModel(TripTimeLine.Contracts.Services.INavigationService)O
+GoToDetail(object)9TripTimeLine.ViewModels.TripsViewModel.GoToDetail(object)U
+GoToDetailCommand.get<TripTimeLine.ViewModels.TripsViewModel.GoToDetailCommand.getU
+GoToDetailCommand.set<TripTimeLine.ViewModels.TripsViewModel.GoToDetailCommand.set

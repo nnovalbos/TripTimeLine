@@ -1,0 +1,20 @@
+
++TripTimeLine.iOS.Application.Main(string[])k
+a/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine.iOS/Main.cs ("0*³
+0 (8ž
+›
+ (9
+
+%0void"5UIKit.UIApplication.Main(string[]?, string?, string?)*"
+UIKit.UIApplication*
+
+argsstring[]*
+""*
+AppDelegate*
+1*.
+1	 (	"
+ (	
+implicit return:
+ (&
+argsstring[]B "
+TripTimeLine.iOS.Application

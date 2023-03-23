@@ -1,0 +1,16 @@
+# Required metadata
+sonar.host.url=https://sonarcloud.io
+sonar.organization=nnovalbos
+sonar.projectKey=nnovalbos_TripTimeLine
+sonar.projectName=TripTimeLine
+sonar.sources=.
+sonar.sourceEncoding=UTF-8
+
+# Additional properties
+sonar.login=aa24a380169f5d7b2e7f824988b864cdf1bfc048
+sonar.branch.name=master
+sonar.exclusions=**/*.xml,**/*.json,**/*.md
+sonar.coverage.exclusions=**/*.test.js
+sonar.tests=.
+sonar.test.inclusions=**/*Test*/**, **/*Spec**/
+sonar.javascript.lcov.reportPaths=coverage/lcov.info

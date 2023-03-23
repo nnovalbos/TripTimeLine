@@ -1,0 +1,147 @@
+
+6TripTimeLine.ViewModels.TripDetailViewModel.DrawData()Å
+w/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/ViewModels/TripDetailViewModel.csx x("0*≥
+0	z Ä(0ä
+á
+z z(
+%0TripTimeLine.Models.Trip"__id*US*Q-
++TripTimeLine.ViewModels.TripDetailViewModel" 
+tripTripTimeLine.Models.Tripb
+`
+z z($	
+%1int"%TripTimeLine.Models.Trip.Duration.get*" 
+
+%0TripTimeLine.Models.Trip9
+7
+z z(/
+%2string"int.ToString()*
+	
+%1intö
+ó
+z z(/
+%3string"8TripTimeLine.ViewModels.TripDetailViewModel.TripTime.set*1/-
++TripTimeLine.ViewModels.TripDetailViewModel*
+
+%2stringä
+á
+{ {(
+%4TripTimeLine.Models.Trip"__id*US*Q-
++TripTimeLine.ViewModels.TripDetailViewModel" 
+tripTripTimeLine.Models.Tripg
+e
+{ {($
+%5double"'TripTimeLine.Models.Trip.Kilometers.get*" 
+
+%4TripTimeLine.Models.Trip?
+=
+{ {(/
+%6string"double.ToString()*
+
+%5doubleò
+ï
+{ {(/
+%7string"6TripTimeLine.ViewModels.TripDetailViewModel.TripKm.set*1/-
++TripTimeLine.ViewModels.TripDetailViewModel*
+
+%6stringä
+á
+|" |(&
+%8TripTimeLine.Models.Trip"__id*US*Q-
++TripTimeLine.ViewModels.TripDetailViewModel" 
+tripTripTimeLine.Models.Tripl
+j
+|" |(6
+%9double",TripTimeLine.Models.Trip.FuelConsumption.get*" 
+
+%8TripTimeLine.Models.Trip@
+>
+|" |(A
+%10string"double.ToString()*
+
+%9doubleß
+§
+| |(A
+%11string"CTripTimeLine.ViewModels.TripDetailViewModel.TripFuelConsumption.set*1/-
++TripTimeLine.ViewModels.TripDetailViewModel*
+
+%10stringã
+à
+}/ }(3
+%12TripTimeLine.Models.Trip"__id*US*Q-
++TripTimeLine.ViewModels.TripDetailViewModel" 
+tripTripTimeLine.Models.Trip{
+y
+}/ }(P
+%13double"9TripTimeLine.Models.Trip.FuelConsumptionLitersPerHour.get*#!
+
+%12TripTimeLine.Models.TripA
+?
+}/ }([
+%14string"double.ToString()*
+
+%13double¥
+±
+} }([
+%15string"PTripTimeLine.ViewModels.TripDetailViewModel.TripFuelConsumptionLitersPerHour.set*1/-
++TripTimeLine.ViewModels.TripDetailViewModel*
+
+%14stringã
+à
+~ ~(
+%16TripTimeLine.Models.Trip"__id*US*Q-
++TripTimeLine.ViewModels.TripDetailViewModel" 
+tripTripTimeLine.Models.Trip
+}
+~ ~(&$
+%17TripTimeLine.Models.TripEvent"&TripTimeLine.Models.Trip.StartTrip.get*#!
+
+%16TripTimeLine.Models.TripÀ
+»
+~ ~(&$
+%18TripTimeLine.Models.TripEvent"9TripTimeLine.ViewModels.TripDetailViewModel.TripStart.set*1/-
++TripTimeLine.ViewModels.TripDetailViewModel*(&
+$
+%17TripTimeLine.Models.TripEventã
+à
+ (
+%19TripTimeLine.Models.Trip"__id*US*Q-
++TripTimeLine.ViewModels.TripDetailViewModel" 
+tripTripTimeLine.Models.Trip}
+{
+ ("$
+%20TripTimeLine.Models.TripEvent"$TripTimeLine.Models.Trip.EndTrip.get*#!
+
+%19TripTimeLine.Models.Trip…
+∆
+ ("$
+%21TripTimeLine.Models.TripEvent"7TripTimeLine.ViewModels.TripDetailViewModel.TripEnd.set*1/-
++TripTimeLine.ViewModels.TripDetailViewModel*(&
+$
+%20TripTimeLine.Models.TripEventç
+ä
+
+Ä Ä(
+%22TripTimeLine.Models.Trip"__id*US*Q-
++TripTimeLine.ViewModels.TripDetailViewModel" 
+tripTripTimeLine.Models.TripÁ
+‰
+
+Ä Ä(00
+%23)System.Collections.Generic.IEnumerable<T>"QTripTimeLine.Extensions.TripExtensions.GetEventsGrouped(TripTimeLine.Models.Trip)*,*"(
+&TripTimeLine.Extensions.TripExtensions*#!
+
+%22TripTimeLine.Models.TripÊ
+„
+
+Ä Ä(00
+%24)System.Collections.Generic.IEnumerable<T>":TripTimeLine.ViewModels.TripDetailViewModel.TripEvents.set*1/-
++TripTimeLine.ViewModels.TripDetailViewModel*42
+0
+%23)System.Collections.Generic.IEnumerable<T>*
+1*2
+1
+É	 É(	"!
+
+É É(	
+implicit returnB/-
++TripTimeLine.ViewModels.TripDetailViewModel

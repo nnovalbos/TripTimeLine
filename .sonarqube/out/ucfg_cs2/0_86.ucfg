@@ -1,0 +1,18 @@
+
+BTripTimeLine.ViewModels.Base.BaseViewModel.InitializeAsync(object)Ä
+v/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/ViewModels/Base/BaseViewModel.cs (+"0*Í
+0 ((†
+ù
+ ()*
+%0$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*!"
+System.Threading.Tasks.Task*
+"""8
+ (*,
+*
+%0$System.Threading.Tasks.Task<TResult>*.
+1	 (	"
+ (	
+implicit return:
+, (<
+	parameterobjectB.,
+*TripTimeLine.ViewModels.Base.BaseViewModel

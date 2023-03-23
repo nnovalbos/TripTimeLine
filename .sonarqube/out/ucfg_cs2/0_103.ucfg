@@ -1,0 +1,27 @@
+
+5TripTimeLine.Common.AppContainer.Resolve(System.Type)v
+l/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Common/AppContainer.cs ($"0*î
+0! !(.x
+v
+! !(
+%0Autofac.IContainer"__id*JH*F"
+ TripTimeLine.Common.AppContainer" 
+
+_containerAutofac.IContainerÈ
+Å
+! !(/
+%1object"LAutofac.ResolutionExtensions.Resolve(Autofac.IComponentContext, System.Type)*" "
+Autofac.ResolutionExtensions*
+
+%0Autofac.IContainer*
+
+typenameSystem.Type"
+! !(0
+
+%1object*.
+1"	 "(	"
+" "(	
+implicit return:#
+% (2
+typenameSystem.TypeB$""
+ TripTimeLine.Common.AppContainer

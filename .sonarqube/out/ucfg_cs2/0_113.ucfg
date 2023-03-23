@@ -1,0 +1,22 @@
+
+:TripTimeLine.Common.MockDataUtils.GetJsonDataFromService()w
+m/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Common/MockDataUtils.csQ Q(3"0*Î
+0S S(:‡
+„
+S/ S(:
+%0TripTimeLine.Models.Trip"__id*RP*N#
+!TripTimeLine.Common.MockDataUtils"'
+mockDataObjTripTimeLine.Models.Trip˜
+•
+S S(;
+%1string"4Newtonsoft.Json.JsonConvert.SerializeObject(object?)*!"
+Newtonsoft.Json.JsonConvert*" 
+
+%0TripTimeLine.Models.Trip"
+S S(<
+
+%1string*.
+1T	 T(	"
+T T(	
+implicit returnB%"#
+!TripTimeLine.Common.MockDataUtils

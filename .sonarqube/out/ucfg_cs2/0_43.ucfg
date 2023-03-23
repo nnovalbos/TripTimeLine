@@ -1,0 +1,53 @@
+
+vTripTimeLine.Views.TripDetailView.DetailsPanel_PropertyChanged(object, System.ComponentModel.PropertyChangedEventArgs)|
+r/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/Views/TripDetailView.xaml.cs (1"0*Š
+0 (Lo
+m
+ (#
+%0object"/Xamarin.Forms.BindableObject.BindingContext.get*" 
+Xamarin.Forms.BindableObject2
+0
+ (:
+%1object"__id*
+
+%0objectW
+U
+ (:1
+vm+TripTimeLine.ViewModels.TripDetailViewModel"__id*
+
+%1objectt
+r
+, (/
+%2Xamarin.Forms.Image"__id*EC*A#
+!TripTimeLine.Views.TripDetailView"
+mapXamarin.Forms.Imagea
+_
+, (6
+%3double"&Xamarin.Forms.VisualElement.Height.get*
+
+%2Xamarin.Forms.ImageŠ
+‡
+9 (E
+%4Xamarin.Forms.StackLayout"__id*TR*P#
+!TripTimeLine.Views.TripDetailView")
+detailsPanelXamarin.Forms.StackLayoutg
+e
+9 (L
+%5double"&Xamarin.Forms.VisualElement.Height.get*#!
+
+%4Xamarin.Forms.StackLayout¨
+¥
+ (L
+%6double"JTripTimeLine.ViewModels.TripDetailViewModel.TransparentViewLabelHeight.set*53
+1
+vm+TripTimeLine.ViewModels.TripDetailViewModel*
+""*
+1*.
+1	 (	"
+ (	
+implicit return:
+2 (?
+senderobject:?
+A (q3
+e.System.ComponentModel.PropertyChangedEventArgsB%#
+!TripTimeLine.Views.TripDetailView

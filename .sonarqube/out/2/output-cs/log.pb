@@ -1,0 +1,1 @@
+Roslyn version: 3.9.0.0Language version: CSharp7_3!Concurrent execution: enabled ≈File '/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine.iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttributes.cs' was recognized as generated

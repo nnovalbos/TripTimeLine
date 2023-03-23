@@ -1,0 +1,49 @@
+
+sTripTimeLine.CustomControls.TripDetailIcon.ImageSourcePropertyChanged(Xamarin.Forms.BindableObject, object, object)Ö
+{/Users/nnovalbos/Documents/Proyectos/Pruebas/XamarinPruebas/TripTimeLine/TripTimeLine/CustomControls/TripDetailIcon.xaml.csH H(6"0*≥
+0J K(KF
+D
+J J(2
+%0"__id*,*
+(
+bindableXamarin.Forms.BindableObjectS
+Q
+J J(25
+control*TripTimeLine.CustomControls.TripDetailIcon"__id*
+
+%0â
+Ü
+K K(
+%1Xamarin.Forms.Image"__id*YW*U
+5
+control*TripTimeLine.CustomControls.TripDetailIcon"
+imageXamarin.Forms.ImageQO
+K8 K(K
+%2string"object.ToString()*
+
+newValueobject2
+ToString()ç
+ä
+K# K(L
+%3Xamarin.Forms.ImageSource"*Xamarin.Forms.ImageSource.FromFile(string)*"
+Xamarin.Forms.ImageSource*
+
+%2stringí
+è
+K K(L
+%4Xamarin.Forms.ImageSource"Xamarin.Forms.Image.Source.set*
+
+%1Xamarin.Forms.Image*#!
+
+%3Xamarin.Forms.ImageSource*
+1*.
+1L	 L(	"
+L L(	
+implicit return:4
+H7 H(N(
+bindableXamarin.Forms.BindableObject:
+HP H(_
+oldValueobject:
+Ha H(p
+newValueobjectB.",
+*TripTimeLine.CustomControls.TripDetailIcon
