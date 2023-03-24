@@ -35,6 +35,8 @@ jobs:
           echo "sonar.host.url=https://sonarcloud.io" >> $GITHUB_WORKSPACE/sonar-project.properties
           echo "sonar.projectKey=nnovalbos_TripTimeLine" >> $GITHUB_WORKSPACE/sonar-project.properties
           echo "sonar.organization=nnovalbos" >> $GITHUB_WORKSPACE/sonar-project.properties
+          echo "sonar.sources=." >> $GITHUB_WORKSPACE/sonar-project.properties
+          
 
       - name: SonarCloud Scan
         run: sonar-scanner
