@@ -99,6 +99,8 @@
             }
         }
 
+
+
         public double TransparentViewLabelHeight
         {
             get => transparentViewLabelHeight;
@@ -116,6 +118,8 @@
             DrawData();
             IsBusy = false;
         }
+
+
 
         private void DrawData()
         {
