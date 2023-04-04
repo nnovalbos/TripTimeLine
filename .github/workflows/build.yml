@@ -3,42 +3,37 @@ name: SonarCloud Analysis
 on:
   push:
     branches:
-      - master
+      - master  # Cambiar al nombre de la rama principal de tu repositorio
 
 jobs:
-  sonarcloud-analysis:
-    name: SonarCloud Analysis
+  build:
     runs-on: macos-latest
-
+    
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-
-      - name: Setup JDK 11
-        uses: actions/setup-java@v2
-        with:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+       with:
           java-version: 11
           distribution: 'zulu'
           distribution-version: '11.0.13'
-
-      - name: Cache SonarCloud packages
-        uses: actions/cache@v2
-        with:
-          path: ~/.sonar/cache
-          key: ${{ runner.os }}-sonar
-          restore-keys: |
-            ${{ runner.os }}-sonar
-
-      - name: Install SonarScanner
-        run: |
-          brew install sonar-scanner
-          echo "sonar.host.url=https://sonarcloud.io" >> $GITHUB_WORKSPACE/sonar-project.properties
-          echo "sonar.projectKey=nnovalbos_TripTimeLine" >> $GITHUB_WORKSPACE/sonar-project.properties
-          echo "sonar.organization=nnovalbos" >> $GITHUB_WORKSPACE/sonar-project.properties
-          echo "sonar.sources=." >> $GITHUB_WORKSPACE/sonar-project.properties
-          
-
-      - name: SonarCloud Scan
-        run: sonar-scanner
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+    
+    - name: Restore NuGet packages
+      run: nuget restore
+    
+    - name: Build Android project
+      run: msbuild /t:Restore,Rebuild /p:Configuration=Release /p:Platform="Any CPU" ./TripTimeLine/TripTimeLine.Android.csproj
+    
+    - name: Build iOS project
+      run: msbuild /t:Restore,Rebuild /p:Configuration=Release /p:Platform="iPhone" ./TripTimeLine/TripTimeLine.iOS.csproj
+    
+    - name: Build Shared project
+      run: msbuild /t:Restore,Rebuild /p:Configuration=Release /p:Platform="Any CPU" ./TripTimeLine/TripTimeLine.csproj
+    
+    - name: Run SonarCloud analysis
+      run: dotnet sonarscanner begin /k:"nnovalbos_TripTimeLine" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.organization="nnovalbos"
+    
+    - name: Build and analyze
+      run: dotnet build && dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
