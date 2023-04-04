@@ -24,13 +24,13 @@ jobs:
       run: nuget restore
     
     - name: Build Android project
-      run: msbuild /t:Restore,Rebuild /p:Configuration=Release /p:Platform="Any CPU" ./TripTimeLine/TripTimeLine.Android.csproj
+      run: msbuild /t:Restore,Rebuild /p:Configuration=Release /p:Platform="Any CPU" ./TripTimeLine/TripTimeLine.Android./TripTimeLine.Android.csproj
     
     - name: Build iOS project
-      run: msbuild /t:Restore,Rebuild /p:Configuration=Release /p:Platform="iPhone" ./TripTimeLine/TripTimeLine.iOS.csproj
+      run: msbuild /t:Restore,Rebuild /p:Configuration=Release /p:Platform="iPhone" ./TripTimeLine/TripTimeLine.iOS/TripTimeLine.iOS.csproj
     
     - name: Build Shared project
-      run: msbuild /t:Restore,Rebuild /p:Configuration=Release /p:Platform="Any CPU" ./TripTimeLine/TripTimeLine.csproj
+      run: msbuild /t:Restore,Rebuild /p:Configuration=Release /p:Platform="Any CPU" ./TripTimeLine/TripTimeLine/TripTimeLine.csproj
     
     - name: Run SonarCloud analysis
       run: dotnet sonarscanner begin /k:"nnovalbos_TripTimeLine" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.organization="nnovalbos"
